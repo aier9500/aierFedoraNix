@@ -14,7 +14,6 @@
     ferdium
     gnome-boxes
     gnome-console
-    gnome-extension-manager
     gnome-solanum
     gnome-tweaks
     gparted
@@ -43,8 +42,9 @@
     zoxide # Better cd
 
     # Installed through Flatpak: 
-    # Zen Browser
     # Flatseal
+    # Gnome Extension Manager
+    # Zen Browser
 
   ]) ++ (with pkgs.gnomeExtensions; [    # Gnome Extensions
 
