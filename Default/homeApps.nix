@@ -14,12 +14,12 @@
     ferdium
     gnome-boxes
     gnome-console
+    gnome-extension-manager
     gnome-solanum
     gnome-tweaks
     gparted
     handbrake
     hieroglyphic
-    libreoffice
     osu-lazer
     protonvpn-gui
     resources
