@@ -32,19 +32,14 @@
     wordbook
     
     # Non-Graphical Applications
-    fastfetch
     ffmpeg-full
     gnome-themes-extra # Theming dependency
     gtk-engine-murrine # Theming dependency
-    home-manager
     ntfs3g
     python3
     sassc # Theming dependency
     usbutils # lsusb etc.
-    # Shell wizardry
-    eza # Better ls
-    fd # Better find
-    ripgrep # Better grep
+
     zoxide # Better cd
 
     # Installed through Flatpak: 
@@ -82,6 +77,12 @@
     chromium.enable = true; 
 
     # Non-Graphical Programs
+    eza = {
+      enable = true;
+      enableBashIntegration = true;
+    };
+    fastfetch.enable = true;
+    fd.enable = true; 
     fzf.enable = true;
     git.enable = true;
     java.enable = true; 
@@ -92,6 +93,12 @@
         pkgs.obs-studio-plugins.droidcam-obs
       ];
     };
+    ripgrep.enable = true;
     texlive.enable = true; 
+    zoxide = {
+      enable = true;
+      enableBashIntegration = true;
+    };
+
   };
 }
