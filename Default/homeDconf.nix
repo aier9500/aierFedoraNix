@@ -20,6 +20,7 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeExtensionsUnite.nix
     ./HomeDconf/gnomeExtensionsUserTheme.nix
     ./HomeDconf/gnomeMediaKeys.nix
+    ./HomeDconf/gnomeMouse.nix
     ./HomeDconf/gnomeMutter.nix
     ./HomeDconf/gnomeShellKeybindings.nix
     ./HomeDconf/gnomeTouchpad.nix
