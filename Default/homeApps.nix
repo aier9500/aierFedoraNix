@@ -64,7 +64,7 @@
     # unite
     user-themes
     windownavigator
-    window-title-is-back                          # Not needed for unite
+    # window-title-is-back                        # Not needed for unite # Temporarily disabled
   ]);
   
   services = {
