@@ -22,7 +22,7 @@
     vesktop
     vial
     wordbook
-    # Installed through Flatpak: Zen Browser, Flatseal, GDM-Settings
+    # Installed through Flatpak: Zen Browser, Flatseal
 
   ]) ++ (with pkgs.gnomeExtensions; [    # Gnome Extensions
 
