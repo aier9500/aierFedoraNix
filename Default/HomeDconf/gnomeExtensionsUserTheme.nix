@@ -6,7 +6,7 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
     "org/gnome/shell/extensions/user-theme" = {
-      name = "MarbleBlueLight";
+      name = "MarbleBlueDark";
     };
 
   };

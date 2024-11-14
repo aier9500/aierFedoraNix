@@ -11,8 +11,8 @@
 
   home.pointerCursor = {
     gtk.enable = true;
-    package = pkgs.catppuccin-cursors.latteLight;
-    name = "catppuccin-latte-light-cursors";
+    package = pkgs.whitesur-cursors;
+    name = "WhiteSur-cursors";
   };
   
 }
