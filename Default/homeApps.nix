@@ -7,9 +7,9 @@
     audacity
     # blender # temporarily disabled
     chromium
+    converseen
     darktable
     dconf-editor
-    dconf2nix
     eyedropper
     ferdium
     gnome-boxes
@@ -28,9 +28,11 @@
     tetrio-desktop
     vesktop
     vial
+    video-trimmer
     wordbook
     
     # Non-Graphical Applications
+    dconf2nix
     ffmpeg-full
     gnome-themes-extra # Theming dependency
     gtk-engine-murrine # Theming dependency
@@ -38,8 +40,6 @@
     python3
     sassc # Theming dependency
     usbutils # lsusb etc.
-
-    zoxide # Better cd
 
     # Installed through Flatpak: 
     # Flatseal

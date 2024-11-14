@@ -3,6 +3,6 @@
 {
   imports = [
     ./HomeModules/homeVscode.nix
-    ./HomeModules/homeBash.nix
+    # ./HomeModules/homeBash.nix
   ];
 }
