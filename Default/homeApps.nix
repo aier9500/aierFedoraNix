@@ -63,6 +63,7 @@
     # rounded-window-corners-reborn               # Incompatible with PaperWM
     # unite
     user-themes
+    wiggle
     windownavigator
     # window-title-is-back                        # Not needed for unite # Temporarily disabled
   ]);
