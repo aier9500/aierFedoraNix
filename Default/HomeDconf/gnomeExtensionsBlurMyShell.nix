@@ -23,12 +23,11 @@ with lib.hm.gvariant;
       blur = false;
     };
 
-    # Temporarily disabled
-    # "org/gnome/shell/extensions/blur-my-shell/dash-to-dock" = {
-    #   blur = true;
-    #   pipeline = "pipeline_default_rounded";
-    #   static-blur = true;
-    # };
+    "org/gnome/shell/extensions/blur-my-shell/dash-to-dock" = {
+      blur = false; # Temporarily disabled
+      pipeline = "pipeline_default_rounded";
+      static-blur = true;
+    };
 
     "org/gnome/shell/extensions/blur-my-shell/lockscreen" = {
       blur = false; 
@@ -39,12 +38,11 @@ with lib.hm.gvariant;
       style-components = 0; 
     };
 
-    # Temporarily disabled
-    # "org/gnome/shell/extensions/blur-my-shell/panel" = {
-    #   blur = true; 
-    #   pipeline = "pipeline_default";
-    #   static-blur = true;
-    # };
+    "org/gnome/shell/extensions/blur-my-shell/panel" = {
+      blur = false; # Temporarily disabled
+      pipeline = "pipeline_default";
+      static-blur = true;
+    };
 
     "org/gnome/shell/extensions/blur-my-shell/screenshot" = {
       blur = true;
