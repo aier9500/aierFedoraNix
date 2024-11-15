@@ -49,8 +49,8 @@ with lib.hm.gvariant;
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3" = {
       binding = "<Shift><Control>Escape";
-      command = "resources";
-      name = "resources";
+      command = "flatpak run net.nokyan.Resources";
+      name = "flatpak run net.nokyan.Resources";
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4" = {
@@ -67,8 +67,8 @@ with lib.hm.gvariant;
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6" = {
       binding = "<Shift><Super>c";
-      command = "emoji-picker";
-      name = "emoji-picker";
+      command = "gnome-characters";
+      name = "gnome-characters";
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7" = {
