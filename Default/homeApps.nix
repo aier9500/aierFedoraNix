@@ -18,6 +18,7 @@
     # ---- Others ----
     # scrcpy
     # tetrio-desktop
+    # vesktop
     # vial
 
   ]) ++ (with pkgs.gnomeExtensions; [    # Gnome Extensions
