@@ -1,0 +1,12 @@
+sudo dnf install audacity -y
+sudo dnf install blender -y
+sudo dnf install chromium -y
+sudo dnf install converseen -y
+sudo dnf install darktable -y
+sudo dnf install dconf-editor -y
+sudo dnf install gnome-boxes -y
+sudo dnf install gnome-console -y
+sudo dnf install gnome-tweaks -y
+sudo dnf install gparted -y
+sudo dnf install obs-studio -y
+sudo dnf install steam -y

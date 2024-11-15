@@ -15,39 +15,6 @@
     sassc # Theming dependency
     usbutils # lsusb etc.
 
-    # ---- DNF ----
-    # audacity
-    # blender
-    # chromium
-    # converseen
-    # darktable
-    # dconf-editor
-    # gnome-boxes
-    # gnome-console
-    # gnome-tweaks
-    # gparted
-    # obs-studio
-    # steam
-
-    # ---- Flatpak ----
-    # flathub org.localsend.localsend_app
-    # flathub com.rafaelmardojai.Blanket
-    # flathub com.visualstudio.code
-    # flathub com.mattjakeman.ExtensionManager
-    # flathub com.github.finefindus.eyedropper
-    # flathub org.ferdium.Ferdium
-    # flathub com.github.tchx84.Flatseal
-    # flathub fr.handbrake.ghb
-    # flathub io.github.finefindus.Hieroglyphic
-    # flathub sh.ppy.osu
-    # flathub net.nokyan.Resources
-    # flathub org.gnome.Solanum
-    # flathub dev.vencord.Vesktop
-    # flathub org.gnome.gitlab.YaLTeR.VideoTrimmer
-    # flathub dev.mufeed.Wordbook
-    # flathub com.protonvpn.www
-    # flathub io.github.zen_browser.zen
-
     # ---- Others ----
     # scrcpy
     # tetrio-desktop
