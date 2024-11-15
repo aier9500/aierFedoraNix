@@ -4,33 +4,6 @@
 
   home.packages = (with pkgs; [    # User Apps
 
-    audacity
-    # blender # temporarily disabled
-    chromium
-    converseen
-    darktable
-    dconf-editor
-    eyedropper
-    ferdium
-    gnome-boxes
-    gnome-console
-    gnome-solanum
-    gnome-tweaks
-    gparted
-    handbrake
-    hieroglyphic
-    osu-lazer
-    protonvpn-gui
-    resources
-    scrcpy
-    shutter
-    steam
-    tetrio-desktop
-    vesktop
-    vial
-    video-trimmer
-    wordbook
-    
     # Non-Graphical Applications
     dconf2nix
     ffmpeg-full
@@ -41,7 +14,37 @@
     sassc # Theming dependency
     usbutils # lsusb etc.
 
-    # Installed through Flatpak: 
+    # ---- DNF ----
+    # audacity
+    # blanket
+    # blender
+    # chromium
+    # converseen
+    # darktable
+    # dconf-editor
+    # eyedropper
+    # ferdium
+    # gnome-boxes
+    # gnome-console
+    # gnome-solanum
+    # gnome-tweaks
+    # gparted
+    # handbrake
+    # hieroglyphic
+    # obs-studio
+    # osu-lazer
+    # protonvpn-gui
+    # resources
+    # scrcpy
+    # shutter
+    # steam
+    # tetrio-desktop
+    # vesktop
+    # vial
+    # video-trimmer
+    # wordbook
+
+    # ---- Flatpak ----
     # Flatseal
     # Gnome Extension Manager
     # Zen Browser
@@ -70,12 +73,9 @@
   
   services = {
 
-    blanket.enable = true;
   };
 
   programs = {
-
-    chromium.enable = true; 
 
     # Non-Graphical Programs
     eza = {
@@ -87,12 +87,6 @@
     fzf.enable = true;
     git.enable = true;
     java.enable = true; 
-    obs-studio = {
-      enable = true;
-      plugins = [
-        pkgs.obs-studio-plugins.droidcam-obs
-      ];
-    };
     ripgrep.enable = true;
     texlive.enable = true; 
     zoxide = {
