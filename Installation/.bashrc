@@ -34,17 +34,17 @@ PS1='------------------\n\[$(tput setaf 56)\][$(tput setaf 56)\]\u \[$(tput seta
 eval "$(zoxide init bash)"
 
 # Shell Aliases
-cls='clear'
-cmd='compgen -c | fzf' # Search through all available commands
-homesw='cd ~/MyBash && ./homesw.sh'
-sysw='cd ~/MyBash && ./sysw.sh';
-lsd='eza -TD'; # Directory tree
-lsd1='eza -TD --level 1';
-lsd2='eza -TD --level 2';
-lsd3='eza -TD --level 3';
-lst='eza -T'; # Directory and files tree
-lst1='eza -T --level 1';
-lst2='eza -T --level 2';
-lst3='eza -T --level 3'
-nixse='nix search nixpkgs'; 
-zh='history | fzf'; # Search through Bash history
+alias cls='clear'
+alias cmd='compgen -c | fzf'
+alias homesw='cd ~/MyBash && ./homesw.sh'
+alias sysw='cd ~/MyBash && ./sysw.sh'
+alias lsd='eza -TD'
+alias lsd1='eza -TD --level 1'
+alias lsd2='eza -TD --level 2'
+alias lsd3='eza -TD --level 3'
+alias lst='eza -T'
+alias lst1='eza -T --level 1'
+alias lst2='eza -T --level 2'
+alias lst3='eza -T --level 3'
+alias nixse='nix search nixpkgs'
+alias zh='history | fzf'
