@@ -42,7 +42,7 @@
     # flathub sh.ppy.osu
     # flathub net.nokyan.Resources
     # flathub org.gnome.Solanum
-    # flatpak install flathub dev.vencord.Vesktop
+    # flathub dev.vencord.Vesktop
     # flathub org.gnome.gitlab.YaLTeR.VideoTrimmer
     # flathub dev.mufeed.Wordbook
     # flathub com.protonvpn.www
