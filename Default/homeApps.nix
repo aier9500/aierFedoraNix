@@ -9,6 +9,7 @@
     ffmpeg-full
     gnome-themes-extra # Theming dependency
     gtk-engine-murrine # Theming dependency
+    kanata
     ntfs3g
     python3
     sassc # Theming dependency
@@ -42,6 +43,7 @@
     # vesktop
     # vial
     # video-trimmer
+    # vscode
     # wordbook
 
     # ---- Flatpak ----
