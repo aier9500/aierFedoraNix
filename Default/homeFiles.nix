@@ -17,35 +17,6 @@
     ".local/share/themes/MarblePurpleLight".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-light";
     ".local/share/themes/MarblePurpleDark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-dark";
     ".local/share/themes/AdwGtk3".source = "${pkgs.adw-gtk3}/share/themes/adw-gtk3";
-    # MyBash
-    "MyBash/homesw.sh"= {
-      text = 
-        "
-          cd ~/.dotfiles
-          home-manager switch --flake .#default
-          echo \"
-          ----------------------------------------
-          ---------- homesw.sh Finished ----------
-          ----- You can close this window now ----
-          ----------------------------------------
-          \"
-        ";
-      executable = true;
-    };
-    "MyBash/sysw.sh" = {
-      text =
-        "
-          cd ~/.dotfiles
-          sudo nixos-rebuild switch --flake .#default
-          echo \"
-          ----------------------------------------
-          ----------- sysw.sh Finished -----------
-          ----- You can close this window now ----
-          ----------------------------------------
-          \"
-        ";
-      executable = true;
-    };
     
   };
 }
