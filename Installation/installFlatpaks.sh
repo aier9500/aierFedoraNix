@@ -16,3 +16,5 @@ flatpak install flathub org.gnome.gitlab.YaLTeR.VideoTrimmer -y
 flatpak install flathub org.gnome.Solanum -y
 flatpak install flathub org.localsend.localsend_app -y
 flatpak install flathub sh.ppy.osu -y
+flatpak install org.gtk.Gtk3theme.adw-gtk3 -y
+flatpak install org.gtk.Gtk3theme.adw-gtk3-dark -y
