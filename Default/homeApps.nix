@@ -17,39 +17,41 @@
 
     # ---- DNF ----
     # audacity
-    # blanket
     # blender
     # chromium
     # converseen
     # darktable
     # dconf-editor
-    # eyedropper
-    # ferdium
     # gnome-boxes
     # gnome-console
-    # gnome-solanum
     # gnome-tweaks
     # gparted
-    # handbrake
-    # hieroglyphic
     # obs-studio
-    # osu-lazer
-    # protonvpn-gui
-    # resources
-    # scrcpy
-    # shutter
     # steam
-    # tetrio-desktop
-    # vesktop
-    # vial
-    # video-trimmer
-    # vscode
-    # wordbook
 
     # ---- Flatpak ----
-    # Flatseal
-    # Gnome Extension Manager
-    # Zen Browser
+    # flathub org.localsend.localsend_app
+    # flathub com.rafaelmardojai.Blanket
+    # flathub com.visualstudio.code
+    # flathub com.mattjakeman.ExtensionManager
+    # flathub com.github.finefindus.eyedropper
+    # flathub org.ferdium.Ferdium
+    # flathub com.github.tchx84.Flatseal
+    # flathub fr.handbrake.ghb
+    # flathub io.github.finefindus.Hieroglyphic
+    # flathub sh.ppy.osu
+    # flathub net.nokyan.Resources
+    # flathub org.gnome.Solanum
+    # flatpak install flathub dev.vencord.Vesktop
+    # flathub org.gnome.gitlab.YaLTeR.VideoTrimmer
+    # flathub dev.mufeed.Wordbook
+    # flathub com.protonvpn.www
+    # flathub io.github.zen_browser.zen
+
+    # ---- Others ----
+    # scrcpy
+    # tetrio-desktop
+    # vial
 
   ]) ++ (with pkgs.gnomeExtensions; [    # Gnome Extensions
 
