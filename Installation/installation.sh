@@ -1,6 +1,6 @@
 # Prerequisite: 
 # Nix
-# The git repository is cloned to ~/.dotfiles/aierFedoraNix
+# The git repository is cloned to ~/.dotfiles
 
 
 # Install Home-Manager

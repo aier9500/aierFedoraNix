@@ -1,5 +1,5 @@
 # Prerequisites: 
-# The git repository is cloned to ~/.dotfiles/aierFedoraNix
+# The git repository is cloned to ~/.dotfiles
 
 # Using custom .bashrc
 cd ~/.dotfiles/aierFedoraNix/Installation/OptionalScripts
