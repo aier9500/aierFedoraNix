@@ -6,7 +6,6 @@
     ./Default/homeConfigs.nix
     ./Default/homeDconf.nix
     ./Default/homeFiles.nix
-    ./Default/homeModules.nix
     ./Default/homeFlatpak.nix
   ];
 }
