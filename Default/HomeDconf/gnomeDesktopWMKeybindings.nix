@@ -17,7 +17,7 @@ with lib.hm.gvariant;
       cycle-panels-backward = [];
       cycle-windows = [];
       cycle-windows-backward = [];
-      maximize = [ "<Super>up" ]; # Incompatible with PaperWM
+      maximize = [ "<Super>up" ]; 
       move-to-workspace-1 = [];
       move-to-workspace-down = [];
       move-to-workspace-last = [];
@@ -41,7 +41,7 @@ with lib.hm.gvariant;
       toggle-fullscreen = [ "F11" ];
       toggle-maximized = [ "F10" ];
       toggle-on-all-workspaces = [ "<Super><Shift>u" ];
-      unmaximize = [ "<Super>Down" ]; # Incompatible with PaperWM
+      unmaximize = [ "<Super>Down" ]; 
     };
 
   };
