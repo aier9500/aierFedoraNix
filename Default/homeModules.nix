@@ -2,6 +2,6 @@
 
 {
   imports = [
-    ./HomeModules/homeVscode.nix
+    
   ];
 }
