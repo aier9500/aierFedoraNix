@@ -5,10 +5,6 @@ VSCode:
     Remove homeModules
     Dotfiles
     
-App Installer: missing pssaz
+App Installer: missing aesthetics
     DNF Installer
     Flatpak Installer
-
-Dotfiles: 
-/home/aier/.local/share/flatpak/overrides/global
-/home/aier/.local/share/flatpak/overrides/io.github.zen_browser.zen
