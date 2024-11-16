@@ -1,4 +1,5 @@
-# Prerequisite: Nix
+# Prerequisite: 
+# Nix
 # The git repository is cloned to ~/.dotfiles/aierFedoraNix
 
 
@@ -7,10 +8,12 @@ nix-channel --add https://github.com/nix-community/home-manager/archive/master.t
 nix-channel --update
 nix-shell '<home-manager>' -A install
 
-# Using custom .bashrc
-cd ~/.dotfiles/aierFedoraNix/Installation
-mv ~/.bashrc ~/.bashrcOriginal
-cp ~/.dotfiles/aierFedoraNix/Installation/.bashrc ~/.bashrc
-
 # Building Home-Manager configs
 home-manager switch --flake .#default --extra-experimental-features "nix-command flakes"
+
+# Running app installation scripts
+cd ~/.dotfiles/aierFedoraNix/Installation
+sudo chmod +x installDnf.sh
+./installDnf.sh
+sudo chmod +x installFlatpaks.sh
+sudo ./installFlatpaks.sh
