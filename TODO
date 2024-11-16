@@ -1,10 +1,14 @@
-Remove homeModules
-    VS Code Dotfiles
-    Kanata Dotfiles
+System-Manager:
+    Kanata
 
-App Installer: missing pssas
+VSCode:
+    Remove homeModules
+    Dotfiles
+    
+App Installer: missing pssaz
     DNF Installer
     Flatpak Installer
 
+Dotfiles: 
 /home/aier/.local/share/flatpak/overrides/global
 /home/aier/.local/share/flatpak/overrides/io.github.zen_browser.zen
