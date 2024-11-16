@@ -9,11 +9,14 @@ nix-channel --update
 nix-shell '<home-manager>' -A install
 
 # Building Home-Manager configs
+cd ~/.dotfiles/aierFedoraNix
 home-manager switch --flake .#default --extra-experimental-features "nix-command flakes"
+nix flake update
+home-manager switch --flake .#default
 
 # Running app installation scripts
 cd ~/.dotfiles/aierFedoraNix/Installation
 sudo chmod +x installDnf.sh
 ./installDnf.sh
 sudo chmod +x installFlatpaks.sh
-sudo ./installFlatpaks.sh
+./installFlatpaks.sh
