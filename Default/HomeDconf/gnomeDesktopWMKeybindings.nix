@@ -30,6 +30,8 @@ with lib.hm.gvariant;
       switch-applications-backward = [ "<Shift><Super>Tab" ];
       switch-input-source = [ "<Super>space" ];
       switch-input-source-backward = [ "<Shift><Super>space" ];
+      switch-panels = [ "<Control><Super>Above_Tab" ]
+      switch-panels-backward = [ "<Shift><Control><Super>Above_Tab "];
       switch-to-workspace-1 = [];
       switch-to-workspace-down = [];
       switch-to-workspace-last = [];
