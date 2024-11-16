@@ -7,16 +7,16 @@
     ".local/share/fonts/NotoCjkSerif".source = "${pkgs.noto-fonts-cjk-serif}/share/fonts/opentype/noto-cjk";
     ".local/share/fonts/NotoCjkSans".source = "${pkgs.noto-fonts-cjk-sans}/share/fonts/opentype/noto-cjk";
     # .icons
-    ".local/share/icons/LatteLightCursors".source = "${pkgs.catppuccin-cursors.latteLight}/share/icons/catppuccin-latte-light-cursors";
-    ".local/share/icons/WhitesurCursors".source = "${pkgs.whitesur-cursors}/share/icons/WhiteSur-cursors";
+    ".local/share/icons/catppuccin-latte-light-cursors".source = "${pkgs.catppuccin-cursors.latteLight}/share/icons/catppuccin-latte-light-cursors";
+    ".local/share/icons/WhiteSur-cursors".source = "${pkgs.whitesur-cursors}/share/icons/WhiteSur-cursors";
     # .themes
-    ".local/share/themes/MarbleBlueLight".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-light";
-    ".local/share/themes/MarbleBlueDark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-dark";
-    ".local/share/themes/MarblePinkLight".source = "${pkgs.marble-shell-theme}/share/themes/Marble-pink-light";
-    ".local/share/themes/MarblePinkDark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-pink-dark";
-    ".local/share/themes/MarblePurpleLight".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-light";
-    ".local/share/themes/MarblePurpleDark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-dark";
-    ".local/share/themes/AdwGtk3".source = "${pkgs.adw-gtk3}/share/themes/adw-gtk3";
+    ".local/share/themes/Marble-blue-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-light";
+    ".local/share/themes/Marble-blue-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-dark";
+    ".local/share/themes/Marble-pink-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-pink-light";
+    ".local/share/themes/Marble-pink-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-pink-dark";
+    ".local/share/themes/Marble-purple-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-light";
+    ".local/share/themes/Marble-purple-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-dark";
+    ".local/share/themes/adw-gtk3".source = "${pkgs.adw-gtk3}/share/themes/adw-gtk3";
     
   };
 }
