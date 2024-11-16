@@ -5,3 +5,6 @@ Remove homeModules
 App Installer: missing pssas
     DNF Installer
     Flatpak Installer
+
+/home/aier/.local/share/flatpak/overrides/global
+/home/aier/.local/share/flatpak/overrides/io.github.zen_browser.zen
