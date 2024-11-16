@@ -2,9 +2,9 @@
 
 {
 
-  home.packages = (with pkgs; [    # User Apps
+  # User Apps
+  home.packages = (with pkgs; [    
 
-    # Non-Graphical Applications
     dconf2nix
     ffmpeg-full
     gnome-themes-extra # Theming dependency
@@ -15,13 +15,14 @@
     sassc # Theming dependency
     usbutils # lsusb etc.
 
-    # ---- Others ----
+    # ---- Not from Nixpkgs, DNF, nor Flatpak ----
     # scrcpy
     # tetrio-desktop
     # vesktop
     # vial
 
-  ]) ++ (with pkgs.gnomeExtensions; [    # Gnome Extensions
+  # Gnome Extensions
+  ]) ++ (with pkgs.gnomeExtensions; [
 
     appindicator
     arcmenu
