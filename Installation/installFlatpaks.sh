@@ -4,7 +4,6 @@ flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub com.mattjakeman.ExtensionManager -y
 flatpak install flathub com.protonvpn.www -y
 flatpak install flathub com.rafaelmardojai.Blanket -y
-flatpak install flathub com.rtosta.zapzap -y
 flatpak install flathub dev.mufeed.Wordbook -y
 flatpak install flathub fr.handbrake.ghb -y
 flatpak install flathub io.github.finefindus.Hieroglyphic -y
