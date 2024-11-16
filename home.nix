@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  imports = [ ./imports.nix ];
+  imports = [ ./Default/homeImports.nix ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "aier";

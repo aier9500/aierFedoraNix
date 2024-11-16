@@ -36,7 +36,7 @@
       systemConfigs.default = system-manager.lib.makeSystemConfig {
 
         modules = [
-          ./systemManager.nix
+          ./system.nix
         ];
       };
     };
