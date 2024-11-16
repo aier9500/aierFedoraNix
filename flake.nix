@@ -25,10 +25,11 @@
         inherit pkgs;
 
         modules = [ 
+          
           ./home.nix 
-          nix-flatpak.nixosModules.nix-flatpak
+          nix-flatpak.homeManagerModules.nix-flatpak
         ];
-        
+
       };
     };
 }
