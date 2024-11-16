@@ -4,6 +4,10 @@
   inputs = {
 
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    system-manager = {
+      url = "github:numtide/system-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -11,7 +15,7 @@
     nix-flatpak.url = "github:gmodena/nix-flatpak";
   };
 
-  outputs = { nixpkgs, home-manager, nix-flatpak, ... }@inputs:
+  outputs = { nixpkgs, home-manager, nix-flatpak, self, flake-utils, system-manager, ... }@inputs:
   
     let
     
@@ -23,13 +27,17 @@
       homeConfigurations.default = home-manager.lib.homeManagerConfiguration {
         
         inherit pkgs;
-
         modules = [ 
-          
           ./home.nix 
           nix-flatpak.homeManagerModules.nix-flatpak
         ];
+      };
 
+      systemConfigs.default = system-manager.lib.makeSystemConfig {
+
+        modules = [
+          ./systemManager.nix
+        ];
       };
     };
 }
