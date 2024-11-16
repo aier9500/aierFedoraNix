@@ -25,22 +25,16 @@
 
     appindicator
     arcmenu
-    # auto-move-windows                           # Incompatible with dynamic workspaces
     blur-my-shell
     clipboard-indicator
     dash-to-dock
-    # disable-unredirect-fullscreen-windows       # Not needed for PaperWM
-    # hide-top-bar                                # Incompatible with PaperWM
     just-perfection
     launch-new-instance
-    # paperwm
     quick-settings-audio-panel
-    # rounded-window-corners-reborn               # Incompatible with PaperWM
     # unite
     user-themes
     wiggle
     windownavigator
-    # window-title-is-back                        # Not needed for unite # Temporarily disabled
   ]);
   
   services = {
