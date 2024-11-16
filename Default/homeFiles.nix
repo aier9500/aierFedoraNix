@@ -16,7 +16,6 @@
     ".local/share/themes/Marble-pink-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-pink-dark";
     ".local/share/themes/Marble-purple-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-light";
     ".local/share/themes/Marble-purple-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-dark";
-    ".local/share/themes/adw-gtk3".source = "${pkgs.adw-gtk3}/share/themes/adw-gtk3";
     
   };
 }
