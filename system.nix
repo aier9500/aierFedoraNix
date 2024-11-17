@@ -1,17 +1,15 @@
 { config, lib, pkgs, ... }:
 
 {
+  
+  imports = [
+    ./Default/systemImports.nix
+  ];
+
   config = {
 
-    imports = [
-      ./Default/systemImports.nix
-    ]; 
-
     nixpkgs.hostPlatform = "x86_64-linux";
-
-    config = {
-      system-manager.allowAnyDistro = true;
-    }
+    system-manager.allowAnyDistro = true;
 
   };
 }
