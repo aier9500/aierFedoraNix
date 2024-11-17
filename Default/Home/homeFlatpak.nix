@@ -38,13 +38,6 @@
 
       Context = {
 
-        # Prefer Wayland by default
-        sockets = [ 
-          "wayland" 
-          "fallback-x11" 
-          "!x11" 
-        ];
-
         # Allow access to all filesystems
         filesystems = [
           "host"
