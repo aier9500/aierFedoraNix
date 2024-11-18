@@ -27,6 +27,7 @@
     appindicator
     arcmenu
     blur-my-shell
+    caffeine
     clipboard-indicator
     dash-to-dock
     just-perfection
