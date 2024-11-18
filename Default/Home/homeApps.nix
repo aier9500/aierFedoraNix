@@ -13,6 +13,7 @@
     ntfs3g
     python3
     sassc # Theming dependency
+    texlive
     usbutils # lsusb etc.
 
     # ---- Not from Nixpkgs, DNF, nor Flatpak ----
@@ -56,7 +57,6 @@
     git.enable = true;
     java.enable = true; 
     ripgrep.enable = true;
-    texlive.enable = true; 
     zoxide = {
       enable = true;
       enableBashIntegration = true;
