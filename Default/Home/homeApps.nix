@@ -35,7 +35,6 @@
     quick-settings-audio-panel
     # unite
     user-themes
-    wiggle
     windownavigator
   ]);
   
