@@ -4,9 +4,8 @@
 
   services.flatpak.enable = true; 
   
-  # Auto Update
-  services.flatpak.update.onActivation = true;
-  services.flatpak.remotes = [{ name = "flathub-beta"; location = "https://flathub.org/beta-repo/flathub-beta.flatpakrepo"; }];
+  # Auto Update Off
+  services.flatpak.update.onActivation = false;
 
   # Declare Flatpaks to install here
   services.flatpak.packages = [
