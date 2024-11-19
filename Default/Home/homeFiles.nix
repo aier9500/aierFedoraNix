@@ -1,7 +1,7 @@
 { config, pkgs, input, ... }:
 
 {
-  home.file = 
+  home.file = {
 
     # fonts
     ".local/share/fonts/IbmPlex".source = "${pkgs.ibm-plex}/share/fonts/opentype";
@@ -102,5 +102,5 @@
       [Install]
       WantedBy=default.target
     ";
-  ;
+  };
 }

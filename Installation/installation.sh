@@ -21,3 +21,6 @@ home-manager switch --flake .#default
 cd ~/.dotfiles/aierFedoraNix/Installation
 sudo chmod +x installDnf.sh
 ./installDnf.sh
+cd ~/.dotfiles/aierFedoraNix/Installation
+sudo chmod +x installDnf.sh
+./installDnf.sh
