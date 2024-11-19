@@ -13,7 +13,6 @@
     ntfs3g
     python3
     sassc # Theming dependency
-    texlive
     usbutils # lsusb etc.
 
     # ---- Not from Nixpkgs, DNF, nor Flatpak ----
