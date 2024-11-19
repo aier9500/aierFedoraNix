@@ -33,11 +33,11 @@
         ];
       };
 
-      # systemConfigs.default = system-manager.lib.makeSystemConfig {
-      # 
-      #   modules = [
-      #     ./system.nix
-      #   ];
-      # };
+      systemConfigs.default = system-manager.lib.makeSystemConfig {
+      
+        modules = [
+          ./system.nix
+        ];
+      };
     };
 }
