@@ -6,6 +6,7 @@
   
   # Auto Update
   services.flatpak.update.onActivation = true;
+  services.flatpak.remotes = [{ name = "flathub-beta"; location = "https://flathub.org/beta-repo/flathub-beta.flatpakrepo"; }];
 
   # Declare Flatpaks to install here
   services.flatpak.packages = [
@@ -27,7 +28,7 @@
     "sh.ppy.osu"
 
     # Testing
-    "dev.geopjr.Calligraphy"
+    # "dev.geopjr.Calligraphy"
   ];
 
   # Flatpak override configs
