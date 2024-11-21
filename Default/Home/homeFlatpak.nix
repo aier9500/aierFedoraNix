@@ -20,12 +20,12 @@
     "io.github.finefindus.Hieroglyphic"
     "io.github.zen_browser.zen"
     "net.nokyan.Resources"
-    "net.xm1math.Texmaker"
     "org.ferdium.Ferdium"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
     "org.gnome.Solanum"
     "org.gtk.Gtk3theme.adw-gtk3"
     "org.localsend.localsend_app"
+    "org.texstudio.TeXstudio"
     "sh.ppy.osu"
   ];
 
