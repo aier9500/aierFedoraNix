@@ -18,6 +18,7 @@
     "dev.mufeed.Wordbook "
     "fr.handbrake.ghb"
     "io.github.finefindus.Hieroglyphic"
+    "io.github.flattool.Warehouse"
     "io.github.zen_browser.zen"
     "net.nokyan.Resources"
     "org.ferdium.Ferdium"
