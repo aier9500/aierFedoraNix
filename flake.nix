@@ -15,7 +15,7 @@
     nix-flatpak.url = "github:gmodena/nix-flatpak";
   };
 
-  outputs = { nixpkgs, home-manager, nix-flatpak, self, flake-utils, system-manager, ... }@inputs:
+  outputs = { nixpkgs, home-manager, nix-flatpak, self, flake-utils, system-manager, ... }:
   
     let
     
@@ -40,4 +40,5 @@
         ];
       };
     };
+  
 }
