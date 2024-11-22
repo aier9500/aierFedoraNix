@@ -5,7 +5,7 @@
   services.flatpak.enable = true; 
   
   # Auto Update Off
-  services.flatpak.update.onActivation = false;
+  services.flatpak.update.onActivation = true;
 
   # Declare Flatpaks to install here
   services.flatpak.packages = [
