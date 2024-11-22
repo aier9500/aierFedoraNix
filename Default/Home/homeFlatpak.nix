@@ -14,6 +14,7 @@
     "com.mattjakeman.ExtensionManager"
     "com.protonvpn.www"
     "com.rafaelmardojai.Blanket"
+    "de.haeckerfelix.Fragments"
     "dev.geopjr.Calligraphy"
     "dev.mufeed.Wordbook "
     "fr.handbrake.ghb"
