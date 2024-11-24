@@ -11,7 +11,6 @@
   services.flatpak.packages = [
     "com.github.finefindus.eyedropper"
     "com.github.tchx84.Flatseal"
-    "com.ktechpit.whatsie"
     "com.mattjakeman.ExtensionManager"
     "com.protonvpn.www"
     "com.rafaelmardojai.Blanket"
@@ -23,7 +22,7 @@
     "io.github.flattool.Warehouse"
     "io.github.zen_browser.zen"
     "net.nokyan.Resources"
-    # "org.ferdium.Ferdium"
+    "org.ferdium.Ferdium"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
     "org.gnome.Solanum"
     "org.gtk.Gtk3theme.adw-gtk3"
