@@ -36,9 +36,7 @@
   # User Apps
   home.packages = (with pkgs; [    
     
-    (import ./HomeApps/homeAppsVesktop.nix { inherit pkgs; })
-    (import ./HomeApps/homeAppsScrcpy.nix { inherit pkgs; })
-
+    android-tools
     dconf2nix
     eza
     fastfetch
