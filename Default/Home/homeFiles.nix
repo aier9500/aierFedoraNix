@@ -14,10 +14,28 @@
 
     # icons
     # ".local/share/icons/catppuccin-latte-light-cursors".source = "${pkgs.catppuccin-cursors.latteLight}/share/icons/catppuccin-latte-light-cursors"; # Temporarily disabled
-    ".local/share/icons/WhiteSur-cursors".source = "${pkgs.whitesur-cursors}/share/icons/WhiteSur-cursors";
+    # ".local/share/icons/WhiteSur-cursors".source = "${pkgs.whitesur-cursors}/share/icons/WhiteSur-cursors";
     # .icons
     # ".icons/catppuccin-latte-light-cursors".source = "${pkgs.catppuccin-cursors.latteLight}/share/icons/catppuccin-latte-light-cursors"; # Temporarily disabled
-    ".icons/WhiteSur-cursors".source = "${pkgs.whitesur-cursors}/share/icons/WhiteSur-cursors";
+    # ".icons/WhiteSur-cursors".source = "${pkgs.whitesur-cursors}/share/icons/WhiteSur-cursors";
+
+    # Desktop Entries
+    "Desktop/vesktop.png".source = "${pkgs.vesktop}/share/icons/hicolor/256x256/apps/vesktop.png";
+    ".local/share/applications/vesktop.desktop".text = ''
+      [Desktop Entry]
+      Name=Vesktop
+      Type=Application
+      Exec=Vesktop
+      Icon=vesktop.png
+    '';
+    ".local/share/applications/scrcpy.desktop".text = ''
+      [Desktop Entry]
+      Name=scrcpy
+      Type=Application
+      Exec=Scrcpy
+      Icon=scrcpy.png
+    '';
+
 
     # themes
     ".local/share/themes/Marble-blue-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-light";

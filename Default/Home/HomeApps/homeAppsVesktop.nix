@@ -1,14 +1,11 @@
-{ pkgs, config, ... }: 
+{ pkgs }: 
 
-{
-  pkgs.writeShellApplication = {
-    
-    name = "Vesktop";
+pkgs.writeShellApplication {
+  name = "Vesktop";
 
-    runtimeInputs = [ pkgs.vesktop ];
+  runtimeInputs = [ pkgs.vesktop ];
 
-    text = ''
-      nixGL vesktop
-    '';
-  };
+  text = ''
+    nixGL vesktop
+  '';
 }

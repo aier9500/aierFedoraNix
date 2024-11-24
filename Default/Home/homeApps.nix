@@ -8,7 +8,6 @@
   # vesktop
   # vial
 
-
   # Declare Flatpaks to install here
   services.flatpak.packages = [
     "com.github.finefindus.eyedropper"
@@ -37,7 +36,7 @@
   # User Apps
   home.packages = (with pkgs; [    
     
-    (import ./HomeApps/homeAppsVesktop.nix { inherit pkgs config; })
+    (import ./HomeApps/homeAppsVesktop.nix { inherit pkgs; })
 
     dconf2nix
     eza
