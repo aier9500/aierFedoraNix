@@ -37,7 +37,7 @@
   # User Apps
   home.packages = (with pkgs; [    
     
-    (import ./HomeApps/HomeAppsVesktop.nix { inherit pkgs; })
+    (import ./HomeApps/homeAppsVesktop.nix { inherit pkgs config; })
 
     dconf2nix
     eza
@@ -48,7 +48,7 @@
     git
     gnome-themes-extra # Theming dependency
     gtk-engine-murrine # Theming dependency
-    java
+    jdk
     kanata
     ntfs3g
     python3
