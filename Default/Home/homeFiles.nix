@@ -41,7 +41,7 @@
     };
     
     ".config/kanata/kanata.kbd".text = 
-    "
+    ''
       (defsrc
         esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
         grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
@@ -86,10 +86,10 @@
         lqw ( layer-switch default )                                         ;; Switch to QWERTY layer
         lcm ( layer-switch colemak-dh)                                       ;; Switch to Colemak-DH layer
       )
-    ";
+    '';
 
     ".config/systemd/user/kanata.service".text = 
-    "
+    ''
       [Unit]
       Description=Kanata keyboard remapper
       Documentation=https://github.com/jtroo/kanata
@@ -101,6 +101,6 @@
 
       [Install]
       WantedBy=default.target
-    ";
+    '';
   };
 }
