@@ -1,10 +1,5 @@
 System-Manager:
     Kanata
-
-VSCode:
-    Remove homeModules
-    Dotfiles
     
 App Installer: missing aesthetics
     DNF Installer
-    Flatpak Installer
