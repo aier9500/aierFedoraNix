@@ -9,7 +9,7 @@ with lib.hm.gvariant;
       arcmenu-hotkey = [ "<Super>r" ];
       distro-icon = 15; # RedHat Icon bc it looks like Linux Premium
       highlight-result-terms = true; 
-      menu-button-appearance = "Icon";
+      menu-button-appearance = "None";
       menu-button-icon = "Distro_Icon";
       menu-button-position-offset = 1;
       menu-layout = "Runner";

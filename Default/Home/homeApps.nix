@@ -10,9 +10,11 @@
 
   # Declare Flatpaks to install here
   services.flatpak.packages = [
+    "ca.desrt.dconf-editor"
     "com.github.finefindus.eyedropper"
     "com.github.tchx84.Flatseal"
     "com.mattjakeman.ExtensionManager"
+    "com.obsproject.Studio"
     "com.protonvpn.www"
     "com.rafaelmardojai.Blanket"
     "de.haeckerfelix.Fragments"
@@ -22,8 +24,12 @@
     "io.github.finefindus.Hieroglyphic"
     "io.github.flattool.Warehouse"
     "io.github.zen_browser.zen"
+    "net.fasterland.converseen"
     "net.nokyan.Resources"
+    "org.chromium.Chromium"
+    "org.darktable.Darktable"
     "org.ferdium.Ferdium"
+    "org.audacityteam.Audacity"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
     "org.gnome.Solanum"
     "org.gtk.Gtk3theme.adw-gtk3"
