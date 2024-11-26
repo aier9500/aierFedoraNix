@@ -3,3 +3,6 @@ System-Manager:
     
 App Installer: missing aesthetics
     DNF Installer
+
+Flatpak 
+    Systemd service start
