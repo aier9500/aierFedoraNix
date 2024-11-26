@@ -1,9 +1,7 @@
-sudo dnf install blender -y
 sudo dnf install gnome-boxes -y
 sudo dnf install gnome-console -y
 sudo dnf install gnome-tweaks -y
 sudo dnf install gparted -y
-sudo dnf install steam -y
 
 # VScode
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
