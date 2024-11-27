@@ -1,4 +1,3 @@
-sudo dnf install gnome-boxes -y
 sudo dnf install gnome-console -y
 sudo dnf install gnome-tweaks -y
 sudo dnf install gparted -y
