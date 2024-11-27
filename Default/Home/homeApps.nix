@@ -33,6 +33,7 @@
     "org.darktable.Darktable"
     "org.ferdium.Ferdium"
     "org.audacityteam.Audacity"
+    "org.gnome.gitlab.somas.Apostrophe"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
     "org.gnome.Solanum"
     "org.gtk.Gtk3theme.adw-gtk3"
