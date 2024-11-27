@@ -21,11 +21,8 @@ git clone github.com/aier9500/aierFedoraNix
 
 2. Change the variables `home.username` and `home.homeDirectory` in the `home.nix` file to suit your system
 
-
-`home.username = "XXXX";` Replace with your username; you can check this by opening the terminal
-
-`home.homeDirectory = "/home/XXXX";` Replace with directory of your home folder
-```
+* `home.username = "XXXX";` Replace with your username; you can check this by opening the terminal
+* `home.homeDirectory = "/home/XXXX";` Replace with directory of your home folder
 
 3. Run the `installation.sh` file - `~/.dotfiles/aierFedoraNix/Installation/`
 
