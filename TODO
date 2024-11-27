@@ -1,8 +1,12 @@
-System-Manager:
-    Kanata
-    
+Dotfiles: 
+    Zen/Firefox user.js
+
 App Installer: missing aesthetics
-    DNF Installer
+    * DNF Installer
 
 Flatpak 
-    Systemd service start
+    * Systemd service start
+
+Later: 
+    * System-Manager:
+        - Kanata
