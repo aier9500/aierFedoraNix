@@ -16,7 +16,7 @@ with lib.hm.gvariant;
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/" 
-        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/"
+        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/"
       ];
       help = [];
       home = [ "<Super>e" ];
@@ -72,9 +72,9 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7" = {
-      binding = "<>";
-      command = "";
-      name = "";
+      binding = "<Shift><Super>t";
+      command = "flatpak run org.gnome.gitlab.somas.Apostrophe";
+      name = "flatpak run org.gnome.gitlab.somas.Apostrophe";
     };
 
   };
