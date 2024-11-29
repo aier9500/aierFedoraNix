@@ -1,6 +1,7 @@
 sudo dnf install gnome-console -y
 sudo dnf install gnome-tweaks -y
 sudo dnf install gparted -y
+sudo dnf install waydroid -y
 
 # VScode
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
