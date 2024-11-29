@@ -77,6 +77,7 @@
     dash-to-dock
     just-perfection
     launch-new-instance
+    tiling-shell
     quick-settings-audio-panel
     # unite
     user-themes
