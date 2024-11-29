@@ -75,6 +75,7 @@
     caffeine
     clipboard-indicator
     dash-to-dock
+    hide-top-bar
     just-perfection
     launch-new-instance
     tiling-shell
