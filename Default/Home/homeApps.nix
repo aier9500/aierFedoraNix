@@ -75,6 +75,7 @@
     caffeine
     clipboard-indicator
     dash-to-dock
+    disable-unredirect-fullscreen-windows
     hide-top-bar
     just-perfection
     launch-new-instance
