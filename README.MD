@@ -13,12 +13,16 @@ The goal of this repository is to help you get a heads start configuring the hom
 
 
 # Installation
-	
+
+
+## First Steps
+
 1. Clone this repository to `~/.dotfiles/`
 
 ```bash
 cd ~ && mkdir .dotfiles # Creates .dotfiles directory 
-git clone -b aier 'github.com/aier9500/aierFedoraNix'
+cd ~/.dotfiles
+git clone -b aier https://github.com/aier9500/aierFedoraNix
 ```
 
 2. Change the variables `home.username` and `home.homeDirectory` in the `home.nix` file to suit your system
@@ -34,8 +38,32 @@ sudo chmod +x installation.sh
 ./installation.sh
 ```
 
-The `installation.sh` should build the home and system manager configurations and install a few DNF packages.
+The `installation.sh` should build the Home Manager configurations and install a few DNF packages.
 
+
+## System Manager
+
+0. Go to `~/.dotfiles/aierFedoraNix/`
+
+```
+cd ~/.dotfiles/aierFedoraNix
+```
+
+1. **You would need root privileges** either through `su` or `sudo su`
+
+```bash
+su
+```
+or
+```
+sudo su
+```
+
+2. Build System Manager for the first time
+
+```bash
+nix run 'github:numtide/system-manager' -- switch --flake .#default
+```
 
 # Optional Scripts
 
