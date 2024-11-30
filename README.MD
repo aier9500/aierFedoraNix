@@ -9,6 +9,8 @@ The goal of this repository is to help you get a heads start configuring the hom
 
 2. **You need an installation of the Nix package manager** to use the code in this repository. For installing Nix, check the [Determinate System Installer](https://determinate.systems/posts/determinate-nix-installer/).
 
+3. You would want to **restart your system** after installing nix before proceeding to the installation. 
+
 
 # Installation
 	
@@ -27,11 +29,12 @@ git clone github.com/aier9500/aierFedoraNix
 3. Run the `installation.sh` file - `~/.dotfiles/aierFedoraNix/Installation/`
 
 ```bash
-sudo chmod +x ~/.dotfiles/aierFedoraNix/Installation/installation.sh
-sudo ./~/.dotfiles/aierFedoraNix/Installation/installation.sh
+cd ~/.dotfiles/aierFedoraNix/Installation/
+sudo chmod +x installation.sh
+./installation.sh
 ```
 
-The `installation.sh` should build the home manager configurations and install a few DNF packages
+The `installation.sh` should build the home and system manager configurations and install a few DNF packages.
 
 
 # Optional Scripts
@@ -50,12 +53,12 @@ Replaces the original .bashrc file in the home directory with one that has the f
 
 ### 2. fedoraHibernationQuickstart.sh
 
-Guides the user through setting up hibernation in Fedora
+Guides the user through setting up hibernation in Fedora.
 
 
 ### 3. kanataQuickstart.sh
 
-Guides the user through setting up Kanata in the home directory
+Guides the user through setting up Kanata in the home directory.
 
 
 # Roadmap
@@ -63,9 +66,9 @@ Guides the user through setting up Kanata in the home directory
 
 ## Making the Repository distro-independent
 
-Separate Fedora specific code into its own folder so that non-Fedora users can use this repository without any trouble
+Separate Fedora specific code into its own folder so that non-Fedora users can use this repository without any trouble.
 
 
 ## System-Manager Implementation
 
-Testing and implementing [system-manager by Numtide](https://github.com/numtide/system-manager) to allow for the declaration of systemd services and dotfiles at `/etc/`
+Testing and implementing [system-manager by Numtide](https://github.com/numtide/system-manager) to allow for the declaration of systemd services and dotfiles at `/etc/`.
