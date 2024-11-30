@@ -76,12 +76,12 @@
     clipboard-indicator
     dash-to-dock
     disable-unredirect-fullscreen-windows
-    hide-top-bar
+    # hide-top-bar
     just-perfection
     launch-new-instance
     tiling-shell
     quick-settings-audio-panel
-    # unite
+    unite
     user-themes
     windownavigator
   ]);

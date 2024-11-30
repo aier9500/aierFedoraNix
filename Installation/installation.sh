@@ -15,7 +15,9 @@ nix flake update
 home-manager switch --flake .#default
 
 # Building System-Manager configs
-# sudo nix run 'github:numtide/system-manager' -- switch --flake .#default
+sudo su
+nix run 'github:numtide/system-manager' -- switch --flake .#default
+exit
 
 # Running app installation scripts
 cd ~/.dotfiles/aierFedoraNix/Installation
