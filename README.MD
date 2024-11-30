@@ -18,7 +18,7 @@ The goal of this repository is to help you get a heads start configuring the hom
 
 ```bash
 cd ~ && mkdir .dotfiles # Creates .dotfiles directory 
-git clone github.com/aier9500/aierFedoraNix
+git clone -b aier github.com/aier9500/aierFedoraNix
 ```
 
 2. Change the variables `home.username` and `home.homeDirectory` in the `home.nix` file to suit your system
