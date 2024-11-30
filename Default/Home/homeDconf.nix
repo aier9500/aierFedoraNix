@@ -15,7 +15,7 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeExtensionsHidetopbar.nix
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
     ./HomeDconf/gnomeExtensionsQuickSettingsAudioPanel.nix
-    # ./HomeDconf/gnomeExtensionsUnite.nix
+    ./HomeDconf/gnomeExtensionsUnite.nix
     ./HomeDconf/gnomeExtensionsUserTheme.nix
     ./HomeDconf/gnomeMediaKeys.nix
     ./HomeDconf/gnomeMouse.nix
