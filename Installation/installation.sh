@@ -14,11 +14,6 @@ home-manager switch --flake .#default --extra-experimental-features "nix-command
 nix flake update
 home-manager switch --flake .#default
 
-# Building System-Manager configs
-sudo su
-nix run 'github:numtide/system-manager' -- switch --flake .#default
-exit
-
 # Running app installation scripts
 cd ~/.dotfiles/aierFedoraNix/Installation
 sudo chmod +x installDnf.sh
