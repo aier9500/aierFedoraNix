@@ -10,7 +10,6 @@
 
   # Declare Flatpaks to install here
   services.flatpak.packages = [
-    "ca.desrt.dconf-editor"
     "com.github.finefindus.eyedropper"
     "com.github.tchx84.Flatseal"
     "com.mattjakeman.ExtensionManager"
