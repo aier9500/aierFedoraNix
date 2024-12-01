@@ -19,7 +19,7 @@ with lib.hm.gvariant;
       preferred-monitor-by-connector = "eDP-1";
       running-indicator-style = "DOTS";
       shortcut = [ "<Shift><Super>q" ];
-      shortcut-text = "<Shift><Super>q";
+      shortcut-text = "<Super>q";
       shortcut-timeout = 2.0;
       show-dock-urgent-notify = false;
       show-trash = false;

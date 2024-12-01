@@ -11,7 +11,7 @@ with lib.hm.gvariant;
       mouse-sensitive = true;
       mouse-sensitive-fullscreen-window = false; 
       pressure-threshold = 200;
-      shortcut-keybind = [ "<Super>q" ];
+      shortcut-keybind = [ "<Shift><Super>q" ];
     };
 
   };
