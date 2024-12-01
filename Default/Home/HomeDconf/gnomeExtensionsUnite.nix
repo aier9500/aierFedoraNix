@@ -11,14 +11,14 @@ with lib.hm.gvariant;
       greyscale-tray-icons = false;
       hide-activities-button = "never";
       hide-app-menu-icon = false;
-      hide-window-titlebars = "maximized";
+      hide-window-titlebars = "never"; # maximized
       notifications-position = "center";
       reduce-panel-spacing = true;
       show-appmenu-button = true;
       show-legacy-tray = true;
       show-window-buttons = "never";
       show-desktop-name = true;
-      show-window-title = "always";
+      show-window-title = "never"; # always
       use-activities-text = false;
       window-buttons-placement = "first";
       window-buttons-theme = "adwaita";

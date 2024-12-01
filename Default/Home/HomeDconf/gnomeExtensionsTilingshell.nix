@@ -1,0 +1,25 @@
+# Generated via dconf2nix: https://github.com/gvolpe/dconf2nix
+{ lib, ... }:
+
+with lib.hm.gvariant;
+
+{
+  dconf.settings = {
+    "org/gnome/shell/extensions/tilingshell" = {
+      enable-move-keybindings = false;
+      enable-snap-assist = false;
+      inner-gaps = mkUint32 4;
+      move-window-down = [ "" ];
+      move-window-left = [ "" ];
+      move-window-right = [ "" ];
+      move-window-up = [ "" ];
+      outer-gaps = mkUint32 4;
+      overridden-settings = ''
+        {"org.gnome.mutter":{"edge-tiling":"true"}}
+      '';
+      quarter-tiling-threshold = mkUint32 15;
+      tile-preview-animation-time = mkUint32 180;
+    };
+
+  };
+}
