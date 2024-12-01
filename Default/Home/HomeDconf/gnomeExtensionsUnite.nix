@@ -6,21 +6,21 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
     "org/gnome/shell/extensions/unite" = {
-      desktop-name-text = "aier @ NixOS";
+      desktop-name-text = "GNOME Desktop";
       extend-left-box = false;
       greyscale-tray-icons = false;
       hide-activities-button = "never";
       hide-app-menu-icon = false;
-      hide-window-titlebars = "never"; # maximized
+      hide-window-titlebars = "maximized";
       notifications-position = "center";
       reduce-panel-spacing = true;
       show-appmenu-button = true;
-      show-legacy-tray = true;
-      show-window-buttons = "never";
+      show-legacy-tray = false;
+      show-window-buttons = "maximized";
       show-desktop-name = true;
-      show-window-title = "never"; # always
+      show-window-title = "always";
       use-activities-text = false;
-      window-buttons-placement = "first";
+      window-buttons-placement = "last";
       window-buttons-theme = "adwaita";
     };
 

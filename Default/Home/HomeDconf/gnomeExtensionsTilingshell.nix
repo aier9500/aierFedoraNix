@@ -9,16 +9,13 @@ with lib.hm.gvariant;
       enable-move-keybindings = false;
       enable-snap-assist = false;
       inner-gaps = mkUint32 4;
-      move-window-down = [ "" ];
-      move-window-left = [ "" ];
-      move-window-right = [ "" ];
-      move-window-up = [ "" ];
       outer-gaps = mkUint32 4;
       overridden-settings = ''
         {"org.gnome.mutter":{"edge-tiling":"true"}}
       '';
       quarter-tiling-threshold = mkUint32 15;
       tile-preview-animation-time = mkUint32 180;
+      top-edge-maximize = true; 
     };
 
   };
