@@ -55,8 +55,8 @@ with lib.hm.gvariant;
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4" = {
       binding = "<Shift><Control><Alt>r";
-      command = "obs";
-      name = "obs";
+      command = "flatpak run com.obsproject.Studio";
+      name = "flatpak run com.obsproject.Studio";
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5" = {

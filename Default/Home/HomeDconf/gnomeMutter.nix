@@ -11,7 +11,7 @@ with lib.hm.gvariant;
       attach-modal-dialogs = true;
       center-new-windows = true;
       dynamic-workspaces = true; 
-      edge-tiling = true; 
+      edge-tiling = false; # Toggled false for tiling shell
       experimental-features = ["scale-monitor-framebuffer" "xwayland-native-scaling"];
       workspaces-only-on-primary = true; 
     };
