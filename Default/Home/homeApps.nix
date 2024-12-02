@@ -3,7 +3,6 @@
 {
 
   # ---- Not from Nixpkgs, DNF, nor Flatpak ----
-  # scrcpy
   # tetrio-desktop
   # vesktop
   # vial
@@ -73,8 +72,8 @@
     blur-my-shell
     caffeine
     clipboard-indicator
-    dash-to-dock
-    disable-unredirect-fullscreen-windows
+    # dash-to-dock
+    # disable-unredirect-fullscreen-windows
     # hide-top-bar
     just-perfection
     launch-new-instance

@@ -11,8 +11,8 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeExtensionsArcmenu.nix
     ./HomeDconf/gnomeExtensionsBlurMyShell.nix
     ./HomeDconf/gnomeExtensionsClipboardManager.nix
-    ./HomeDconf/gnomeExtensionsDashToDock.nix
-    ./HomeDconf/gnomeExtensionsHidetopbar.nix
+    # ./HomeDconf/gnomeExtensionsDashToDock.nix
+    # ./HomeDconf/gnomeExtensionsHidetopbar.nix
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
     ./HomeDconf/gnomeExtensionsQuickSettingsAudioPanel.nix
     ./HomeDconf/gnomeExtensionsUnite.nix
