@@ -69,7 +69,7 @@
 
     appindicator
     arcmenu
-    blur-my-shell
+    # blur-my-shell
     caffeine
     clipboard-indicator
     # dash-to-dock
