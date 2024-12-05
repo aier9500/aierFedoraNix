@@ -26,4 +26,6 @@ user_pref("mousewheel.default.delta_multiplier_x", 300);
 user_pref("mousewheel.default.delta_multiplier_y", 300);
 user_pref("mousewheel.default.delta_multiplier_z", 300);
 
-
+// Zen
+user_pref("zen.glance.activation-method", "alt");
+user_pref("zen.workspaces.show-icon-strip", false);

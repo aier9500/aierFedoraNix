@@ -17,7 +17,7 @@ with lib.hm.gvariant;
       runner-menu-width = 600;
       runner-search-display-style = "Grid";
       runner-show-frequent-apps = true;
-      search-provider-open-windows = true; 
+      search-provider-open-windows = false; 
       search-provider-recent-files = true;
       show-activities-button = true;
       show-search-result-details = true;
