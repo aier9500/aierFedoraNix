@@ -37,8 +37,8 @@ with lib.hm.gvariant;
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1" = {
       binding = "<Shift><Super>r";
-      command = "kgx";
-      name = "kgx";
+      command = "ptyxis";
+      name = "ptyxis";
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2" = {
