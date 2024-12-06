@@ -79,7 +79,7 @@
     just-perfection
     launch-new-instance
     tiling-shell
-    power-profile-switcher 
+    # power-profile-switcher # Installed locally
     quick-settings-audio-panel
     unite
     user-themes

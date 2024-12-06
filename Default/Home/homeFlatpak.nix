@@ -12,12 +12,21 @@
 
     # Global configs 
     global = {
-
       Context = {
-
         # Allow access to all filesystems
         filesystems = [
           "host"
+        ];
+      };
+    };
+
+    "com.rtosta.zapzap" = {
+
+      Context = {
+
+        # Force Wayland by default
+        sockets = [
+          "wayland" "!x11"
         ];
       };
     };
