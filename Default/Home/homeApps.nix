@@ -15,6 +15,7 @@
     "com.obsproject.Studio"
     "com.protonvpn.www"
     "com.rafaelmardojai.Blanket"
+    "com.rtosta.zapzap"
     "com.valvesoftware.Steam"
     "de.haeckerfelix.Fragments"
     "dev.geopjr.Calligraphy"
@@ -78,6 +79,7 @@
     just-perfection
     launch-new-instance
     tiling-shell
+    power-profile-switcher 
     quick-settings-audio-panel
     unite
     user-themes
