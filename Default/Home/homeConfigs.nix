@@ -11,10 +11,10 @@
 
   programs.home-manager.enable = true;
 
-  home.pointerCursor = {
-    gtk.enable = true;
-    package = pkgs.whitesur-cursors;
-    name = "WhiteSur-cursors";
-  };
+  # home.pointerCursor = {
+  #   gtk.enable = true;
+  #   package = pkgs.whitesur-cursors;
+  #   name = "WhiteSur-cursors";
+  # };
   
 }
