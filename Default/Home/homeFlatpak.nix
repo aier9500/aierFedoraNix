@@ -31,6 +31,16 @@
       };
     };
 
+    "com.valvesoftware.Steam" = {
+      Context = {
+        
+        # All filesystems = false
+        filesystems = [
+          "!host"
+        ];
+      };
+    };
+
   };
 
 }
