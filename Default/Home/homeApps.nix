@@ -65,6 +65,11 @@
     usbutils # lsusb etc.
     zoxide
 
+    # Hyprland stuff 
+    xdg-desktop-portal-hyprland
+    hyprsunset
+    hyprpolkitagent
+
   # Gnome Extensions
   ]) ++ (with pkgs.gnomeExtensions; [
 
@@ -78,7 +83,7 @@
     # hide-top-bar
     just-perfection
     launch-new-instance
-    tiling-shell
+    # tiling-shell
     # power-profile-switcher # Installed locally
     quick-settings-audio-panel
     system-monitor
