@@ -81,6 +81,7 @@
     tiling-shell
     # power-profile-switcher # Installed locally
     quick-settings-audio-panel
+    system-monitor
     unite
     user-themes
     windownavigator
