@@ -13,6 +13,7 @@
     "com.github.tchx84.Flatseal"
     "com.mattjakeman.ExtensionManager"
     "com.obsproject.Studio"
+    "com.obsproject.Studio.Plugin.DroidCam"
     "com.protonvpn.www"
     "com.rafaelmardojai.Blanket"
     "com.rtosta.zapzap"
@@ -66,13 +67,21 @@
     zoxide
 
     # Hyprland stuff 
-    xdg-desktop-portal-hyprland
-    hyprsunset
-    hyprpolkitagent
+    # xdg-desktop-portal-hyprland
+    # hyprsunset
+    # hyprpolkitagent
 
   # Gnome Extensions
   ]) ++ (with pkgs.gnomeExtensions; [
 
+    # Native
+    launch-new-instance
+    places-status-indicator
+    system-monitor
+    user-themes
+    windownavigator
+
+    # Non-native
     appindicator
     arcmenu
     # blur-my-shell
@@ -82,14 +91,10 @@
     # disable-unredirect-fullscreen-windows
     # hide-top-bar
     just-perfection
-    launch-new-instance
     # tiling-shell
     # power-profile-switcher # Installed locally
     quick-settings-audio-panel
-    system-monitor
     unite
-    user-themes
-    windownavigator
   ]);
   
 }
