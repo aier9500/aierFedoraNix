@@ -28,6 +28,7 @@
         cd ~/.dotfiles/aierFedoraNix
         home-manager switch --flake .#default
       '';
+      executable = true;
     };
 
 
