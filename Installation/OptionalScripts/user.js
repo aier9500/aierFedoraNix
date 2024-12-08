@@ -29,3 +29,4 @@ user_pref("mousewheel.default.delta_multiplier_z", 300);
 // Zen
 user_pref("zen.glance.activation-method", "alt");
 user_pref("zen.workspaces.show-icon-strip", false);
+user_pref("zen.sidebar.close-on-blur", false);
