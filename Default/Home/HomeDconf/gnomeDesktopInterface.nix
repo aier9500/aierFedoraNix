@@ -8,7 +8,7 @@ with lib.hm.gvariant;
     "org/gnome/desktop/interface" = {
       clock-format = "24h"; 
       color-scheme = "default"; # Prefer dark or light
-      cursor-theme = "Adwaita"; # catppuccin-latte-light or Bibata-Modern-Ice Temporarily disabled
+      cursor-theme = "Bibata-Modern-Ice"; # Adwaita
       document-font-name = "Noto Serif CJK TC 12.5 @wght=400"; # Serif/Document font # Default pt 11
       enable-hot-corners = false;
       font-antialiasing = "rgba";
