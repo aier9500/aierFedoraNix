@@ -6,7 +6,7 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
     "org/gnome/shell/extensions/clipboard-indicator" = {
-      toggle-menu = [ "<Shift><Super>v" ];
+      toggle-menu = [ "<Super>v" ];
     };
 
   };
