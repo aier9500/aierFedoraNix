@@ -26,6 +26,7 @@
     "io.github.flattool.Warehouse"
     "io.github.Foldex.AdwSteamGtk"
     "io.github.zen_browser.zen"
+    "io.missioncenter.MissionCenter"
     "net.fasterland.converseen"
     "net.nokyan.Resources"
     "org.blender.Blender"
@@ -91,8 +92,7 @@
     # disable-unredirect-fullscreen-windows
     # hide-top-bar
     just-perfection
-    # tiling-shell
-    # power-profile-switcher # Installed locally
+    tiling-shell
     quick-settings-audio-panel
     unite
   ]);
