@@ -20,6 +20,7 @@ with lib.hm.gvariant;
       search-provider-open-windows = false; 
       search-provider-recent-files = true;
       show-activities-button = true;
+      show-hidden-recent-files = true; 
       show-search-result-details = true;
     };
 
