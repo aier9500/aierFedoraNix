@@ -22,7 +22,7 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeMouse.nix
     ./HomeDconf/gnomeMutter.nix
     ./HomeDconf/gnomeShellKeybindings.nix
-    # ./HomeDconf/gnomeExtensionsTilingshell.nix
+    ./HomeDconf/gnomeExtensionsTilingshell.nix
     ./HomeDconf/gnomeTouchpad.nix
   ];
 }
