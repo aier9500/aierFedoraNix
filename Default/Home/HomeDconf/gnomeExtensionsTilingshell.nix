@@ -7,7 +7,7 @@ with lib.hm.gvariant;
   dconf.settings = {
     "org/gnome/shell/extensions/tilingshell" = {
       enable-move-keybindings = false;
-      enable-snap-assist = true; # Default: true
+      enable-snap-assist = false; # Default: true
       inner-gaps = mkUint32 4;
       outer-gaps = mkUint32 4;
       overridden-settings = ''
