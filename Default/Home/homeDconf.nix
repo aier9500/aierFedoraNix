@@ -6,6 +6,7 @@ with lib.hm.gvariant;
   
   imports = [
     ./HomeDconf/gnomeDesktopInterface.nix
+    ./HomeDconf/gnomeDesktopSound.nix
     ./HomeDconf/gnomeDesktopWMKeybindings.nix
     ./HomeDconf/gnomeDesktopWMPreferences.nix
     ./HomeDconf/gnomeExtensionsArcmenu.nix
