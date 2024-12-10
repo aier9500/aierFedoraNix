@@ -40,7 +40,7 @@ with lib.hm.gvariant;
       switch-to-workspace-up = [];
       switch-windows = [ "<Alt>Tab" ];
       switch-windows-backward = [ "<Shift><Alt>Tab" ];
-      toggle-fullscreen = [ "F11" ];
+      toggle-fullscreen = [ "" ];
       toggle-maximized = [ "F10" ];
       toggle-on-all-workspaces = [ "<Super><Shift>u" ];
       unmaximize = [ "<Super>Down" ]; 

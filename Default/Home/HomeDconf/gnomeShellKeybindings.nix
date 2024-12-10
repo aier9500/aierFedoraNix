@@ -31,9 +31,9 @@ with lib.hm.gvariant;
       switch-to-application-7 = [ "<Super>7" ];
       switch-to-application-8 = [ "<Super>8" ];
       switch-to-application-9 = [ "<Super>9" ];
-      toggle-application-view = [ "<Super>a" ];
+      toggle-application-view = [ "<Super>apostrophe" ];
       toggle-message-tray = [ "<Super>m" ];
-      toggle-overview = [ "Super_R" ];
+      toggle-overview = [ "<Super>o" "Super_R" ];
       toggle-quick-settings = [ "<Super>q" ];
     };
 

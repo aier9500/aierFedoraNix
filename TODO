@@ -15,6 +15,7 @@ Later:
 
 ---- Super & Super+Shift Combos ----
 
+tab: switch apps
 q: QUICK settings
 w: WEB - zen browser profile picker 
 f: 
@@ -24,8 +25,11 @@ j:
 l: LOCK screen
 u: always-on-top, always visible
 y: 
+semicolon: 
+bracketleft: toggle-tiled-left
+bracketright: toggle-tiled-right
 
-a: APP drawer
+a: 
 r: 
 s: 
 t: TEXT editor
@@ -34,7 +38,9 @@ m: MESSAGES - notification center
 n: NOTIFICATION - focus on notification
 e: file EXPLORER
 i: INFORMATION - settings
-o: 
+o: toggle OVERVIEW
+apostrophe: toggle app drawer
+return: ptyxis terminal
 
 x: close
 c: CALCULATOR
@@ -43,5 +49,6 @@ v: VOILÀ - toggle clipboard
 z: toggle accessibility ZOOM
 k: 
 h: HIDE window
-
-return: ptyxis terminal
+comma: 
+period: ibus emoji?????
+slash: 
