@@ -10,3 +10,38 @@ Flatpak
 Later: 
     * System-Manager:
         - Kanata
+
+
+
+---- Super & Super+Shift Combos ----
+
+q: QUICK settings
+w: WEB - zen browser profile picker 
+f: 
+p: 
+b: zen BROWSER
+j: 
+l: LOCK screen
+u: always-on-top, always visible
+y: 
+
+a: APP drawer
+r: 
+s: 
+t: TEXT editor
+g: 
+m: MESSAGES - notification center
+n: NOTIFICATION - focus on notification
+e: file EXPLORER
+i: INFORMATION - settings
+o: 
+
+x: close
+c: CALCULATOR
+d: toggle DESKTOP
+v: VOILÀ - toggle clipboard
+z: toggle accessibility ZOOM
+k: 
+h: HIDE window
+
+return: ptyxis terminal
