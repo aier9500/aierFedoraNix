@@ -9,10 +9,12 @@ with lib.hm.gvariant;
     "org/gnome/mutter" = {
 
       attach-modal-dialogs = true;
+      auto-maximize = false; 
       center-new-windows = true;
       dynamic-workspaces = true; 
-      edge-tiling = false; # Temporarily disabled for tiling shell
+      edge-tiling = true; # Temporarily disabled for tiling shell
       experimental-features = ["scale-monitor-framebuffer" "xwayland-native-scaling"];
+      focus-change-on-pointer-rest = true;
       workspaces-only-on-primary = true; 
     };
 
