@@ -12,7 +12,7 @@ with lib.hm.gvariant;
       inner-gaps = mkUint32 4;
       outer-gaps = mkUint32 4;
       quarter-tiling-threshold = mkUint32 15;
-      show-indicator = true; 
+      show-indicator = false; # false
       tile-preview-animation-time = mkUint32 180;
       top-edge-maximize = true; 
     };

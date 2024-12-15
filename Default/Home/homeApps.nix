@@ -92,7 +92,7 @@
     # disable-unredirect-fullscreen-windows
     # hide-top-bar
     just-perfection
-    tiling-shell
+    # tiling-shell
     quick-settings-audio-panel
     unite
   ]);
