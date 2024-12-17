@@ -38,12 +38,3 @@ user_pref("zen.sidebar.close-on-blur", false);
 user_pref("zen.splitView.change-on-hover", true); 
 user_pref("zen.view.compact.hide-toolbar", true); 
 user_pref("zen.workspaces.show-icon-strip", false);
-
-// Super Pins
-user_pref("uc.essentials.box-like-corners", false);
-user_pref("uc.essentials.color-scheme", "");
-user_pref("uc.essentials.gap", "");
-user_pref("uc.essentials.width", "");
-user_pref("uc.pins.bg", true);
-user_pref("uc.pins.legacy-layout", true);
-user_pref("uc.superpins.border", "essentials");
