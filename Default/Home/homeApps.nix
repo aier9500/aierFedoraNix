@@ -86,8 +86,11 @@
     appindicator
     arcmenu
     # blur-my-shell
+    burn-my-windows
     caffeine
     clipboard-indicator
+    compiz-alike-magic-lamp-effect
+    compiz-windows-effect
     # dash-to-dock
     # disable-unredirect-fullscreen-windows
     # hide-top-bar

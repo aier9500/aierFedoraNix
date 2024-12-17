@@ -11,10 +11,13 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeDesktopWMPreferences.nix
     ./HomeDconf/gnomeExtensionsArcmenu.nix
     # ./HomeDconf/gnomeExtensionsBlurMyShell.nix
+    ./HomeDconf/gnomeExtensionsBurnMyWindows.nix
     ./HomeDconf/gnomeExtensionsClipboardManager.nix
+    ./HomeDconf/gnomeExtensionsComGithubHermes83CompizWindowsEffect.nix
     # ./HomeDconf/gnomeExtensionsDashToDock.nix
     # ./HomeDconf/gnomeExtensionsHidetopbar.nix
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
+    ./HomeDconf/gnomeExtensionsNcomgithubHermes83CompizAlikeMagicLampEffect.nix
     ./HomeDconf/gnomeExtensionsQuickSettingsAudioPanel.nix
     ./HomeDconf/gnomeExtensionsUnite.nix
     ./HomeDconf/gnomeExtensionsUserTheme.nix

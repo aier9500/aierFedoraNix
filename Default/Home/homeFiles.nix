@@ -34,6 +34,15 @@
 
     # ---- dotfiles ----
 
+    # Extension Stuff
+    ".config/burn-my-windows/profiles/default.conf".text = 
+    ''
+      [burn-my-windows-profile]
+      fire-enable-effect=false
+      glide-enable-effect=true
+      glide-scale=0.10000000000000001
+    '';
+
     # Kanata
     ".local/share/bin/kanata" = {
         source = "${pkgs.kanata}/bin/kanata";
