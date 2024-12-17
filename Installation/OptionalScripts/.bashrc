@@ -36,7 +36,7 @@ eval "$(zoxide init bash)"
 # Shell Aliases
 alias cls='clear'
 alias cmd='compgen -c | fzf'
-alias homesw='cd ~/Bash && ./homesw.sh'
+alias homesw='cd ~/Bash && ./homesw.sh && cd ~/.dotfiles/aierFedoraNix'
 alias lsd='eza -TD'
 alias lsd1='eza -TD --level 1'
 alias lsd2='eza -TD --level 2'
