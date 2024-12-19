@@ -17,7 +17,7 @@ with lib.hm.gvariant;
     # ./HomeDconf/gnomeExtensionsDashToDock.nix
     # ./HomeDconf/gnomeExtensionsHidetopbar.nix
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
-    ./HomeDconf/gnomeExtensionsNcomgithubHermes83CompizAlikeMagicLampEffect.nix
+    ./HomeDconf/gnomeExtensionsNcomGithubHermes83CompizAlikeMagicLampEffect.nix
     ./HomeDconf/gnomeExtensionsQuickSettingsAudioPanel.nix
     ./HomeDconf/gnomeExtensionsUnite.nix
     ./HomeDconf/gnomeExtensionsUserTheme.nix
