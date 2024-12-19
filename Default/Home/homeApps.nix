@@ -32,7 +32,6 @@
     "org.blender.Blender"
     "org.chromium.Chromium"
     "org.darktable.Darktable"
-    "org.ferdium.Ferdium"
     "org.audacityteam.Audacity"
     "org.gnome.gitlab.somas.Apostrophe"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
@@ -40,7 +39,6 @@
     "org.gtk.Gtk3theme.adw-gtk3"
     "org.localsend.localsend_app"
     "org.signal.Signal"
-    "org.texstudio.TeXstudio"
     "sh.ppy.osu"
   ];
 
