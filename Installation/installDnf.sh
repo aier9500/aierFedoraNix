@@ -13,8 +13,8 @@ sudo dnf install code -y
 sudo dnf copr enable zeno/scrcpy -y && sudo dnf install scrcpy -y
 
 # Hyprland
-sudo dnf install hyprland -y
-sudo dnf install waybar -y
+# sudo dnf install hyprland -y
+# sudo dnf install waybar -y
 # sudo dnf install swaync -y
 # sudo dnf install hyprpaper -y
 # sudo dnf install hypridle -y
