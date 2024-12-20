@@ -7,6 +7,7 @@ with lib.hm.gvariant;
   dconf.settings = {
     "org/gnome/desktop/wm/preferences" = {
       action-middle-click-titlebar = "minimize";
+      focus-mode = "mouse"; 
     };
 
   };

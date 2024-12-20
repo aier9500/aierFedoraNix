@@ -14,7 +14,7 @@ with lib.hm.gvariant;
       dynamic-workspaces = true; 
       edge-tiling = true; # Temporarily disabled for tiling shell
       experimental-features = ["scale-monitor-framebuffer" "xwayland-native-scaling"];
-      focus-change-on-pointer-rest = true;
+      focus-change-on-pointer-rest = false;
       workspaces-only-on-primary = true; 
     };
 
