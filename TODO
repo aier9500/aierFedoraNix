@@ -37,7 +37,7 @@ g:
 m: MESSAGES - notification center
 n: toggle-tiled-left 
 e: toggle-tiled right
-i: toggle-tiled-maximized
+i: toggle-maximized
 o: toggle OVERVIEW
 apostrophe: toggle app drawer
 return: ptyxis terminal
@@ -47,7 +47,7 @@ c: CALCULATOR
 d: toggle DESKTOP
 v: VOILÀ - toggle clipboard
 z: toggle accessibility ZOOM
-k: focus-on-notification
+k: focus-active-notification
 h: HOME - explorer
 comma: 
 period: ibus emoji thing
