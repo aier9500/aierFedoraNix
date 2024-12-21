@@ -16,26 +16,26 @@ Later:
 ---- Super & Super+Shift Combos ----
 
 tab: switch apps
-q: QUICK settings
+q: QUICK settings, show dock
 w: WEB - zen browser profile picker 
 f: 
 p: 
 b: zen BROWSER
 j: 
 l: LOCK screen
-u: always-on-top, always visible
+u:
 y: 
 semicolon: 
 bracketleft: toggle-tiled-left
 bracketright: toggle-tiled-right
 
-a: 
-r: 
-s: 
+a: ALWAYS-on-top 
+r: run
+s: SUPER - always-visible
 t: TEXT editor
 g: 
 m: MESSAGES - notification center
-n: NOTIFICATION - focus on notification
+n: focus on NOTIFICATION
 e: file EXPLORER
 i: INFORMATION - settings
 o: toggle OVERVIEW
