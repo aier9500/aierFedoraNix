@@ -20,24 +20,24 @@ q: QUICK settings, show dock
 w: WEB - zen browser profile picker 
 f: 
 p: 
-b: zen BROWSER
+b: BROWSER
 j: 
-l: LOCK screen
-u:
-y: 
+l: switch-to-workspace-left
+u: switch-to-workspace-right
+y: settings
 semicolon: 
 bracketleft: 
 bracketright: 
 
-a: ALWAYS-on-top 
-r: run
-s: SUPER - always-visible
-t: TEXT editor
+a: ALWAYS-on-top, ALWAYS-visible
+r: RUN
+s: 
+t: TEXT editor, Apostrophe Markdown
 g: 
 m: MESSAGES - notification center
-n: focus on NOTIFICATION
-e: file EXPLORER
-i: INFORMATION - settings
+n: toggle-tiled-left 
+e: toggle-tiled right
+i: toggle-tiled-maximized
 o: toggle OVERVIEW
 apostrophe: toggle app drawer
 return: ptyxis terminal
@@ -47,8 +47,8 @@ c: CALCULATOR
 d: toggle DESKTOP
 v: VOILÀ - toggle clipboard
 z: toggle accessibility ZOOM
-k: toggle-maximized
-h: toggle-tiled-left
-comma: toggle-tiled-right
+k: focus-on-notification
+h: HOME - explorer
+comma: 
 period: ibus emoji thing
 slash: toggle-minimized

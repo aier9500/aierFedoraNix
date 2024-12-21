@@ -36,14 +36,14 @@ with lib.hm.gvariant;
       switch-to-workspace-1 = [];
       switch-to-workspace-down = [];
       switch-to-workspace-last = [];
-      switch-to-workspace-left = [ "<Control><Super>left" "<Control><Super>h" ];
-      switch-to-workspace-right = [ "<Control><Super>right" "<Control><Super>comma" ];
+      switch-to-workspace-left = [ "<Control><Super>left" "<Super>l" ];
+      switch-to-workspace-right = [ "<Control><Super>right" "<Super>u" ];
       switch-to-workspace-up = [];
       switch-windows = [ "<Alt>Tab" ];
       switch-windows-backward = [ "<Shift><Alt>Tab" ];
       toggle-fullscreen = [ "" ];
       toggle-maximized = [ "F10" "<Super>k" ];
-      toggle-on-all-workspaces = [ "<Super>s" ];
+      toggle-on-all-workspaces = [ "<Shift><Super>a" ];
       unmaximize = [ "<Super>Down" ]; 
     };
 
