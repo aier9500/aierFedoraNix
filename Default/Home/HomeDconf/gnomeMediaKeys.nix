@@ -26,6 +26,7 @@ with lib.hm.gvariant;
       mic-mute = [ "F8" ];
       rotate-video-lock-static = [];
       screenreader = [];
+      screensaver = [ "<Super>l" ];
       www = [ "<Super>b" ];
     };
 

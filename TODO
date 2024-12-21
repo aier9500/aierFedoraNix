@@ -26,8 +26,8 @@ l: LOCK screen
 u:
 y: 
 semicolon: 
-bracketleft: toggle-tiled-left
-bracketright: toggle-tiled-right
+bracketleft: 
+bracketright: 
 
 a: ALWAYS-on-top 
 r: run
@@ -47,8 +47,8 @@ c: CALCULATOR
 d: toggle DESKTOP
 v: VOILÀ - toggle clipboard
 z: toggle accessibility ZOOM
-k: 
-h: HIDE window
-comma: toggle-tiled-left
-period: toggle-tiled-right
-slash: toggle-maximized
+k: toggle-maximized
+h: toggle-tiled-left
+comma: toggle-tiled-right
+period: ibus emoji thing
+slash: toggle-minimized
