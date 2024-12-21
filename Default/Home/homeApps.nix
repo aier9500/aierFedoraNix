@@ -89,8 +89,10 @@
     clipboard-indicator
     compiz-alike-magic-lamp-effect
     compiz-windows-effect
-    # dash-to-dock
+    dash-to-dock
     # disable-unredirect-fullscreen-windows
+    focus
+    focus-changer
     # hide-top-bar
     just-perfection
     # tiling-shell
