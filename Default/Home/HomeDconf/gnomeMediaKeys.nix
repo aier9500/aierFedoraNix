@@ -43,7 +43,7 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2" = {
-      binding = "<Super>t";
+      binding = "<Super>comma";
       command = "gnome-text-editor";
       name = "gnome-text-editor";
     };
@@ -73,7 +73,7 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7" = {
-      binding = "<Shift><Super>t";
+      binding = "<Shift><Super>comma";
       command = "flatpak run org.gnome.gitlab.somas.Apostrophe";
       name = "flatpak run org.gnome.gitlab.somas.Apostrophe";
     };
