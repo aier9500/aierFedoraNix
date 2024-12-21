@@ -20,8 +20,8 @@ with lib.hm.gvariant;
 
     "org/gnome/mutter/keybindings" = {
 
-      toggle-tiled-left = [ "<Super>left" "<Super>bracketleft" ];
-      toggle-tiled-right = [ "<Super>right" "<Super>bracketright" ];
+      toggle-tiled-left = [ "<Super>left" "<Super>comma" ];
+      toggle-tiled-right = [ "<Super>right" "<Super>period" ];
     };
   };
 }

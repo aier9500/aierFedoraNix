@@ -49,6 +49,6 @@ v: VOILÀ - toggle clipboard
 z: toggle accessibility ZOOM
 k: 
 h: HIDE window
-comma: 
-period: ibus emoji?????
-slash: 
+comma: toggle-tiled-left
+period: toggle-tiled-right
+slash: toggle-maximized
