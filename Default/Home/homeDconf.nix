@@ -12,6 +12,7 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeExtensionsArcmenu.nix
     # ./HomeDconf/gnomeExtensionsBlurMyShell.nix
     ./HomeDconf/gnomeExtensionsBurnMyWindows.nix
+    ./HomeDconf/gnomeExtensionsCaffeine.nix
     ./HomeDconf/gnomeExtensionsClipboardManager.nix
     ./HomeDconf/gnomeExtensionsComGithubHermes83CompizWindowsEffect.nix
     ./HomeDconf/gnomeExtensionsDashToDock.nix
