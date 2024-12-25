@@ -1,4 +1,4 @@
-{ pkgs, configs, ... }: 
+{ pkgs, pkgs-stable, configs, ... }: 
 
 {
 
@@ -98,6 +98,10 @@
     # tiling-shell
     quick-settings-audio-panel
     unite
+
+  # Stable apps
+  ]) ++ (with pkgs-stable; [
+
   ]);
   
 }
