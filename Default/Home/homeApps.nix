@@ -97,6 +97,7 @@
     just-perfection
     # tiling-shell
     quick-settings-audio-panel
+    top-bar-organizer
     unite
 
   # Stable apps
