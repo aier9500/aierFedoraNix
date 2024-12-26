@@ -7,8 +7,8 @@ with lib.hm.gvariant;
   dconf.settings = {
     "org/gnome/shell/extensions/just-perfection" = {
       animation = 1;
-      clock-menu-position = 1; 
-      clock-menu-position-offset = 20; 
+      # clock-menu-position = 1; 
+      # clock-menu-position-offset = 20; 
       dash = false; 
       notification-banner-position = 5;
       search = false;
