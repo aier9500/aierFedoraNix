@@ -6,6 +6,7 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
     "org/gnome/shell/extensions/unite" = {
+      app-menu-max-width = 350;
       desktop-name-text = "GNOME Desktop";
       extend-left-box = false;
       greyscale-tray-icons = false;
