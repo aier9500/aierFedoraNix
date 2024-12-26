@@ -10,7 +10,7 @@
   # Declare Flatpaks to install here
   services.flatpak.packages = [
 
-    # Essentials
+    # Important
     "com.github.finefindus.eyedropper"
     "com.github.tchx84.Flatseal"
     "com.mattjakeman.ExtensionManager"
