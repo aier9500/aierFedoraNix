@@ -20,13 +20,14 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
     ./HomeDconf/gnomeExtensionsNcomGithubHermes83CompizAlikeMagicLampEffect.nix
     ./HomeDconf/gnomeExtensionsQuickSettingsAudioPanel.nix
+    # ./HomeDconf/gnomeExtensionsTilingshell.nix
+    ./HomeDconf/gnomeExtensionsTopBarOrganizer.nix
     ./HomeDconf/gnomeExtensionsUnite.nix
     ./HomeDconf/gnomeExtensionsUserTheme.nix
     ./HomeDconf/gnomeMediaKeys.nix
     ./HomeDconf/gnomeMouse.nix
     ./HomeDconf/gnomeMutter.nix
     ./HomeDconf/gnomeShellKeybindings.nix
-    ./HomeDconf/gnomeExtensionsTilingshell.nix
     ./HomeDconf/gnomeTouchpad.nix
   ];
 }
