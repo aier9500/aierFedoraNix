@@ -83,19 +83,19 @@
     # Non-native
     appindicator
     arcmenu
-    # blur-my-shell
+    blur-my-shell
     burn-my-windows
     caffeine
     clipboard-indicator
     compiz-alike-magic-lamp-effect
     compiz-windows-effect
     dash-to-dock
-    # disable-unredirect-fullscreen-windows
+    disable-unredirect-fullscreen-windows
     focus
     focus-changer
-    # hide-top-bar
+    hide-top-bar
     just-perfection
-    # tiling-shell
+    tiling-shell
     quick-settings-audio-panel
     top-bar-organizer
     unite

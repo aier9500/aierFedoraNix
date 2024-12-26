@@ -10,17 +10,17 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeDesktopWMKeybindings.nix
     ./HomeDconf/gnomeDesktopWMPreferences.nix
     ./HomeDconf/gnomeExtensionsArcmenu.nix
-    # ./HomeDconf/gnomeExtensionsBlurMyShell.nix
+    ./HomeDconf/gnomeExtensionsBlurMyShell.nix
     ./HomeDconf/gnomeExtensionsBurnMyWindows.nix
     ./HomeDconf/gnomeExtensionsCaffeine.nix
     ./HomeDconf/gnomeExtensionsClipboardManager.nix
     ./HomeDconf/gnomeExtensionsComGithubHermes83CompizWindowsEffect.nix
     ./HomeDconf/gnomeExtensionsDashToDock.nix
-    # ./HomeDconf/gnomeExtensionsHidetopbar.nix
+    ./HomeDconf/gnomeExtensionsHidetopbar.nix
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
     ./HomeDconf/gnomeExtensionsNcomGithubHermes83CompizAlikeMagicLampEffect.nix
     ./HomeDconf/gnomeExtensionsQuickSettingsAudioPanel.nix
-    # ./HomeDconf/gnomeExtensionsTilingshell.nix
+    ./HomeDconf/gnomeExtensionsTilingshell.nix
     ./HomeDconf/gnomeExtensionsTopBarOrganizer.nix
     ./HomeDconf/gnomeExtensionsUnite.nix
     ./HomeDconf/gnomeExtensionsUserTheme.nix
