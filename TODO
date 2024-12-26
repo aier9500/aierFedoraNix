@@ -1,19 +1,35 @@
-Dotfiles: 
-    Zen/Firefox user.js
-
-App Installer: missing aesthetics
-    * DNF Installer
-
-Flatpak 
-    * Systemd service start
-
-Later: 
-    * System-Manager:
-        - Kanata
+System Manager (?)
 
 
+#### Extensions currently in use ####
 
----- Super & Super+Shift Combos ----
+Functional and aesthetic extensions: 
+
+- appindicator # (native)
+- arcmenu
+- clipboard-indicator
+- just-perfection
+- quick-settings-audio-panel
+- system-monitor # (native)
+- top-bar-organizer
+- unite
+
+Aesthetic extensions: 
+- burn-my-windows
+- compiz-alike-magic-lamp-effect
+- user-themes # (native)
+
+Functional extensions: 
+- caffeine
+- focus-changer
+- launch-new-instance
+- windownavigator # (native)
+
+
+
+
+
+#### Super & Super+Shift Combos ####
 
 tab: switch apps
 q: QUICK settings, show dock

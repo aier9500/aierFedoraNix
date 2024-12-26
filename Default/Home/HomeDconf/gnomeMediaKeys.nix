@@ -50,8 +50,8 @@ with lib.hm.gvariant;
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3" = {
       binding = "<Shift><Control>Escape";
-      command = "flatpak run net.nokyan.Resources";
-      name = "flatpak run net.nokyan.Resources";
+      command = "flatpak run io.missioncenter.MissionCenter";
+      name = "flatpak run io.missioncenter.MissionCenter";
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4" = {
