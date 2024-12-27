@@ -11,7 +11,7 @@ with lib.hm.gvariant;
       available-monitors = [ 0 ];
       dot-position = "BOTTOM";
       hotkeys-overlay-combo = "TEMPORARILY";
-      intellihide = true;
+      intellihide = false;
       intellihide-key-toggle = [ "<Shift><Super>q" ];
       intellihide-key-toggle-text = "<Shift><Super>q";
       intellihide-use-pressure = true; 
