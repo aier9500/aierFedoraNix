@@ -16,6 +16,7 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeExtensionsClipboardManager.nix
     ./HomeDconf/gnomeExtensionsComGithubHermes83CompizWindowsEffect.nix
     ./HomeDconf/gnomeExtensionsDashToDock.nix
+    ./HomeDconf/gnomeExtensionsDashToPanel.nix
     ./HomeDconf/gnomeExtensionsHidetopbar.nix
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
     ./HomeDconf/gnomeExtensionsNcomGithubHermes83CompizAlikeMagicLampEffect.nix

@@ -95,6 +95,7 @@
     compiz-alike-magic-lamp-effect
     compiz-windows-effect
     dash-to-dock
+    dash-to-panel
     disable-unredirect-fullscreen-windows
     focus
     focus-changer
