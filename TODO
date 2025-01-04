@@ -5,9 +5,10 @@ System Manager (?)
 
 Functional and aesthetic extensions: 
 
-- appindicator # (native)
+# - appindicator # (native)
 - arcmenu
 - clipboard-indicator
+- dash-to-panel
 - just-perfection
 - quick-settings-audio-panel
 - system-monitor # (native)
@@ -15,7 +16,7 @@ Functional and aesthetic extensions:
 - unite
 
 Aesthetic extensions: 
-- burn-my-windows
+- blur-my-shell
 - compiz-alike-magic-lamp-effect
 - user-themes # (native)
 
