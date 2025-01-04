@@ -7,7 +7,7 @@ with lib.hm.gvariant;
   dconf.settings = {
     "org/gnome/settings-daemon/plugins/media-keys" = {
       calculator = [ "<Super>c" ];
-      control-center = [ "<Super>y" ];
+      control-center = [ "<Super>i" ];
       custom-keybindings = [ 
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/"
@@ -27,7 +27,7 @@ with lib.hm.gvariant;
       rotate-video-lock-static = [];
       screenreader = [];
       screensaver = [ "<Super>Delete" ];
-      www = [ "<Super>b" ];
+      www = [ "<Super>f" ];
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {

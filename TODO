@@ -35,13 +35,13 @@ Functional extensions:
 tab: switch apps
 q: QUICK settings, show dock
 w: WEB - zen browser profile picker 
-f: 
+f: FIREFOX
 p: 
-b: BROWSER
+b: 
 j: 
-l: switch-to-workspace-left
-u: switch-to-workspace-right
-y: settings
+l: toggle-tiled-left
+u: toggle-tiled-right
+y: toggle-maximized
 semicolon: 
 bracketleft: 
 bracketright: 
@@ -52,9 +52,9 @@ s:
 t: TEXT editor, Apostrophe Markdown
 g: 
 m: MESSAGES - notification center
-n: toggle-tiled-left 
-e: toggle-tiled right
-i: toggle-maximized
+n: switch-to-workspace-left, move-to-workspace-left
+e: switch-to-workspace-right, move-to-workspace-right
+i: settings
 o: toggle OVERVIEW
 apostrophe: toggle app drawer
 return: ptyxis terminal
@@ -66,6 +66,6 @@ v: VOILÀ - toggle clipboard
 z: toggle accessibility ZOOM
 k: focus-active-notification
 h: HOME - explorer
-comma: 
+comma: text-editor, apostrophe
 period: ibus emoji thing
 slash: toggle-minimized

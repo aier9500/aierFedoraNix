@@ -6,9 +6,9 @@ user_pref("zen.view.compact.hide-toolbar", true);
 user_pref("zen.workspaces.show-icon-strip", false);
 
 // Scrolling
-user_pref("apz.fling_friction", "0.003");
+user_pref("apz.fling_friction", "0.005");
 user_pref("apz.gtk.pangesture.delta_mode", 2);
-user_pref("apz.gtk.pangesture.pixel_delta_mode_multiplier", "20");
+user_pref("apz.gtk.pangesture.pixel_delta_mode_multiplier", "10");
 
 user_pref("apz.overscroll.enabled", false); // DEFAULT NON-LINUX TRUE
 user_pref("general.autoScroll", true);

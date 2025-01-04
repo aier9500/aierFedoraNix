@@ -20,8 +20,8 @@ with lib.hm.gvariant;
 
     "org/gnome/mutter/keybindings" = {
 
-      toggle-tiled-left = [ "<Super>left" "<Super>n" ];
-      toggle-tiled-right = [ "<Super>right" "<Super>e" ];
+      toggle-tiled-left = [ "<Super>left" "<Super>l" ];
+      toggle-tiled-right = [ "<Super>right" "<Super>u" ];
     };
   };
 }
