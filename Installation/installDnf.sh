@@ -13,10 +13,10 @@ sudo dnf install code -y
 sudo dnf copr enable zeno/scrcpy -y && sudo dnf install scrcpy -y
 
 # ZapZap
-sudo dnf copr enable rafatosta/zapzap && sudo dnf install zapzap
+sudo dnf copr enable rafatosta/zapzap -y && sudo dnf install zapzap -y
 
 # Vesktop
-sudo dnf copr enable jeffpeng3/vesktop && sudo dnf install vesktop
+sudo dnf copr enable jeffpeng3/vesktop -y && sudo dnf install vesktop -y
 
 # Hyprland
 # sudo dnf install hyprland -y

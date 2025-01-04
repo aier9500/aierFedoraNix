@@ -4,7 +4,6 @@
 
   # ---- Not from Nixpkgs, DNF, nor Flatpak ----
   # tetrio-desktop
-  # vesktop
   # vial
 
   # Declare Flatpaks to install here
@@ -20,7 +19,6 @@
     "com.obsproject.Studio"
     "com.obsproject.Studio.Plugin.DroidCam"
     "com.protonvpn.www"
-    "com.rtosta.zapzap"
     "de.haeckerfelix.Fragments"
     "dev.mufeed.Wordbook "
     "fr.handbrake.ghb"
