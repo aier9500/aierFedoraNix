@@ -10,16 +10,20 @@
   # Declare Flatpaks to install here
   services.flatpak.packages = [
 
-    # Important
-    "com.github.finefindus.eyedropper"
+    # Essentials 
     "com.github.tchx84.Flatseal"
     "com.mattjakeman.ExtensionManager"
+    "org.gtk.Gtk3theme.adw-gtk3"
+
+    # Important
+    "com.github.finefindus.eyedropper"
     "com.obsproject.Studio"
     "com.obsproject.Studio.Plugin.DroidCam"
     "com.protonvpn.www"
     "com.rtosta.zapzap"
     "de.haeckerfelix.Fragments"
     "dev.mufeed.Wordbook "
+    "dev.vencord.Vesktop"
     "fr.handbrake.ghb"
     "io.github.zen_browser.zen"
     "io.missioncenter.MissionCenter"
@@ -30,8 +34,8 @@
     "org.gnome.gitlab.somas.Apostrophe"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
     "org.gnome.Solanum"
-    "org.gtk.Gtk3theme.adw-gtk3"
     "org.localsend.localsend_app"
+    "org.signal.Signal"
 
     # Additionals
     "com.rafaelmardojai.Blanket"
@@ -43,7 +47,6 @@
     "org.blender.Blender"
     "org.darktable.Darktable"
     "org.audacityteam.Audacity"
-    "org.signal.Signal"
     "sh.ppy.osu"
   ];
 
