@@ -12,6 +12,12 @@ sudo dnf install code -y
 # Screen Copy
 sudo dnf copr enable zeno/scrcpy -y && sudo dnf install scrcpy -y
 
+# ZapZap
+sudo dnf copr enable rafatosta/zapzap && sudo dnf install zapzap
+
+# Vesktop
+sudo dnf copr enable jeffpeng3/vesktop && sudo dnf install vesktop
+
 # Hyprland
 # sudo dnf install hyprland -y
 # sudo dnf install waybar -y

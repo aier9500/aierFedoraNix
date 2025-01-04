@@ -23,7 +23,6 @@
     "com.rtosta.zapzap"
     "de.haeckerfelix.Fragments"
     "dev.mufeed.Wordbook "
-    "dev.vencord.Vesktop"
     "fr.handbrake.ghb"
     "io.github.zen_browser.zen"
     "io.missioncenter.MissionCenter"
