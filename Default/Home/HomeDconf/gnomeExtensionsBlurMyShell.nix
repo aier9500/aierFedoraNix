@@ -10,13 +10,14 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/shell/extensions/blur-my-shell/appfolder" = {
+      blur = false;
       brightness = 1.0;
       sigma = 30;
       style-dialogs = 0; 
     };
 
     "org/gnome/shell/extensions/blur-my-shell/applications" = {
-      blur = true;
+      blur = false;
     };
 
     "org/gnome/shell/extensions/blur-my-shell/coverflow-alt-tab" = {
@@ -39,7 +40,7 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/shell/extensions/blur-my-shell/panel" = {
-      blur = false; # Temporarily disabled
+      blur = true;
       pipeline = "pipeline_default";
       static-blur = true;
     };

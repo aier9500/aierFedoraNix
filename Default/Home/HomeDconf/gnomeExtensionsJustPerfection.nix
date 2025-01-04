@@ -10,6 +10,7 @@ with lib.hm.gvariant;
       notification-banner-position = 5;
       search = false;
       workspaces-in-app-grid = false; 
+      window-preview-caption = false;
       workspace-switcher-should-show = true;
       workspace-switcher-size = 15;
     };

@@ -9,6 +9,7 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeDesktopSound.nix
     ./HomeDconf/gnomeDesktopWMKeybindings.nix
     ./HomeDconf/gnomeDesktopWMPreferences.nix
+    ./HomeDconf/gnomeExtensionsAppindicator.nix
     ./HomeDconf/gnomeExtensionsArcmenu.nix
     ./HomeDconf/gnomeExtensionsBlurMyShell.nix
     ./HomeDconf/gnomeExtensionsBurnMyWindows.nix

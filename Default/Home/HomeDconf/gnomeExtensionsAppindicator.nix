@@ -6,7 +6,8 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
     "org/gnome/shell/extensions/appindicator" = {
-      tray-pos = "right"; # left when not using unite appmenu
+      icon-saturation = 1.0;
+      tray-pos = "right";
     };
 
   };
