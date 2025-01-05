@@ -40,10 +40,10 @@ p:
 b: 
 j: 
 l: toggle-tiled-left
-u: toggle-tiled-right
-y: toggle-maximized
-semicolon: 
-bracketleft: 
+u: toggle-maximized
+y: toggle-tiled-right
+semicolon: move-to-workspace-left
+bracketleft: move-to-workspace-right
 bracketright: 
 
 a: ALWAYS-on-top, ALWAYS-visible
@@ -52,9 +52,9 @@ s:
 t: TEXT editor, Apostrophe Markdown
 g: 
 m: MESSAGES - notification center
-n: switch-to-workspace-left, move-to-workspace-left
-e: switch-to-workspace-right, move-to-workspace-right
-i: settings
+n: switch-to-workspace-left
+e: settings
+i: switch-to-workspace-right
 o: toggle OVERVIEW
 apostrophe: toggle app drawer
 return: ptyxis terminal
