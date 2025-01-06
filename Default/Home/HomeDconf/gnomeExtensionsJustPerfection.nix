@@ -7,7 +7,7 @@ with lib.hm.gvariant;
   dconf.settings = {
     "org/gnome/shell/extensions/just-perfection" = {
       dash = false; 
-      notification-banner-position = 2; # 1 for top center, 2 for top right, 5 for bottom right
+      notification-banner-position = 1; # 1 for top center, 2 for top right, 5 for bottom right
       panel-size = 32; 
       search = false;
       workspaces-in-app-grid = true; # false for clean app grid

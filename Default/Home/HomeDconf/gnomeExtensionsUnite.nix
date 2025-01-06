@@ -19,7 +19,7 @@ with lib.hm.gvariant;
       show-legacy-tray = false;
       show-window-buttons = "never"; # maximized
       show-desktop-name = false;
-      show-window-title = "always";
+      show-window-title = "never"; # "always" shows full title, "never" shows just the app name
       use-activities-text = false;
       window-buttons-placement = "last";
       window-buttons-theme = "adwaita";
