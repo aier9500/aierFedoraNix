@@ -10,7 +10,7 @@ with lib.hm.gvariant;
       color-scheme = "default"; # Prefer dark or light
       cursor-theme = "Bibata-Modern-Ice"; # Adwaita
       document-font-name = "Noto Serif CJK TC 11 @wght=400"; # Serif/Document font # Default pt 11, alt 12.5
-      enable-hot-corners = false;
+      enable-hot-corners = true; # default true
       font-antialiasing = "rgba";
       font-hinting = "full";
       font-name = "IBM Plex Sans 11"; # Sans/Interface/Backup font # Default pt 11, alt 12.5

@@ -12,10 +12,10 @@ with lib.hm.gvariant;
       greyscale-tray-icons = false;
       hide-activities-button = "never";
       hide-app-menu-icon = false;
-      hide-window-titlebars = "maximized";
+      hide-window-titlebars = "maximized"; # maximized
       notifications-position = "center";
       reduce-panel-spacing = true;
-      show-appmenu-button = true;
+      show-appmenu-button = true; # window title
       show-legacy-tray = false;
       show-window-buttons = "never"; # maximized
       show-desktop-name = false;
