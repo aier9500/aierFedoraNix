@@ -16,6 +16,7 @@
 
     # Important
     "com.github.finefindus.eyedropper"
+    "com.github.PintaProject.Pinta"
     "com.obsproject.Studio"
     "com.obsproject.Studio.Plugin.DroidCam"
     "com.protonvpn.www"
@@ -27,7 +28,6 @@
     "me.dusansimic.DynamicWallpaper"
     "net.fasterland.converseen"
     "net.nokyan.Resources"
-    "org.chromium.Chromium"
     "org.gnome.gitlab.somas.Apostrophe"
     "org.gnome.gitlab.YaLTeR.VideoTrimmer"
     "org.gnome.Solanum"
