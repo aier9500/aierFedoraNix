@@ -2,6 +2,7 @@ sudo dnf install dconf-editor -y
 sudo dnf install gnome-tweaks -y
 sudo dnf install gparted -y
 sudo dnf install waydroid -y
+sudo dnf install chromium -y
 
 # VScode
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -11,9 +12,6 @@ sudo dnf install code -y
 
 # Screen Copy
 sudo dnf copr enable zeno/scrcpy -y && sudo dnf install scrcpy -y
-
-# ZapZap
-sudo dnf copr enable rafatosta/zapzap -y && sudo dnf install zapzap -y
 
 # Vesktop
 sudo dnf copr enable jeffpeng3/vesktop -y && sudo dnf install vesktop -y
