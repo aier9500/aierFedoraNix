@@ -3,8 +3,6 @@
 {
 
   # ---- Not from Nixpkgs, DNF, nor Flatpak ----
-  # tetrio-desktop
-  # vial
 
   # Declare Flatpaks to install here
   services.flatpak.packages = [
@@ -70,11 +68,6 @@
     usbutils # lsusb etc.
     zoxide
 
-    # Hyprland stuff 
-    # xdg-desktop-portal-hyprland
-    # hyprsunset
-    # hyprpolkitagent
-
   # Gnome Extensions
   ]) ++ (with pkgs.gnomeExtensions; [
 
@@ -105,6 +98,10 @@
     quick-settings-audio-panel
     top-bar-organizer
     unite
+
+    # Not declaratively installed
+    # Alphabetical app grid
+    # Luminous desktop
 
   # Stable apps
   ]) ++ (with pkgs-stable; [
