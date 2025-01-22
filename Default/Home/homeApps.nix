@@ -13,6 +13,7 @@
     "org.gtk.Gtk3theme.adw-gtk3"
 
     # Important
+    "app.zen_browser.zen"
     "com.github.finefindus.eyedropper"
     "com.github.PintaProject.Pinta"
     "com.obsproject.Studio"
@@ -21,7 +22,6 @@
     "de.haeckerfelix.Fragments"
     "dev.mufeed.Wordbook "
     "fr.handbrake.ghb"
-    "io.github.zen_browser.zen"
     "io.missioncenter.MissionCenter"
     "me.dusansimic.DynamicWallpaper"
     "net.fasterland.converseen"
