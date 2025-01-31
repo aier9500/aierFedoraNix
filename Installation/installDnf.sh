@@ -15,15 +15,3 @@ sudo dnf copr enable zeno/scrcpy -y && sudo dnf install scrcpy -y
 
 # Vesktop
 sudo dnf copr enable jeffpeng3/vesktop -y && sudo dnf install vesktop -y
-
-# Hyprland
-# sudo dnf install hyprland -y
-# sudo dnf install waybar -y
-# sudo dnf install swaync -y
-# sudo dnf install hyprpaper -y
-# sudo dnf install hypridle -y
-# sudo dnf install hyprlock -y
-# sudo dnf install hyprcursor -y
-# sudo dnf install hyprlang -y
-# sudo dnf install hyprwayland-scanner -y
-# sudo dnf install aquamarine -y

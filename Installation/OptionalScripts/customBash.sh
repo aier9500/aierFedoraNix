@@ -3,5 +3,5 @@
 
 # Using custom .bashrc
 cd ~/.dotfiles/aierFedoraNix/Installation/OptionalScripts
-mv ~/.bashrc ~/.bashrcOriginal
-cp ~/.dotfiles/aierFedoraNix/Installation/OptionalScripts/.bashrc ~/.bashrc
+cp ~/.bashrc ~/.bashrcOriginal
+cat ~/.dotfiles/aierFedoraNix/Installation/OptionalScripts/.bashrc >> ~/.bashrc

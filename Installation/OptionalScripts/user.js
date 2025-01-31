@@ -3,6 +3,7 @@ user_pref("zen.glance.activation-method", "alt");
 user_pref("zen.sidebar.close-on-blur", false);
 user_pref("zen.splitView.change-on-hover", true); 
 user_pref("zen.view.compact.hide-toolbar", true); 
+user_pref("zen.view.show-newtab-button-top", false);
 user_pref("zen.workspaces.show-icon-strip", false);
 user_pref("zen.workspaces.show-workspace-indicator", false);
 

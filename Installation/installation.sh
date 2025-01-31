@@ -14,8 +14,3 @@ home-manager switch --flake .#default --extra-experimental-features "nix-command
 nix flake update
 home-manager switch --flake .#default
 systemctl enable flatpak-managed-install
-
-# Running app installation scripts
-cd ~/.dotfiles/aierFedoraNix/Installation
-sudo chmod +x installDnf.sh
-./installDnf.sh
