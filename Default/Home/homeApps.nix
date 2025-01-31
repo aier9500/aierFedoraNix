@@ -53,19 +53,13 @@
     eza
     fastfetch
     fd
-    ffmpeg-full
     fzf
     git
-    gnome-themes-extra # Theming dependency
-    gtk-engine-murrine # Theming dependency
     jdk
     kanata
-    ntfs3g
     python3
     ripgrep
-    sassc # Theming dependency
     texliveFull
-    usbutils # lsusb etc.
     zoxide
 
   # Gnome Extensions
