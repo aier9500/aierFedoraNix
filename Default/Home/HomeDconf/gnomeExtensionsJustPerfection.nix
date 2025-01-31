@@ -6,6 +6,7 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
     "org/gnome/shell/extensions/just-perfection" = {
+      animation = 4;
       dash = false; 
       notification-banner-position = 1; # 1 for top center, 2 for top right, 5 for bottom right
       panel-size = 32; 
