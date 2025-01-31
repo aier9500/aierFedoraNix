@@ -27,7 +27,7 @@ with lib.hm.gvariant;
       rotate-video-lock-static = [];
       screenreader = [];
       screensaver = [ "<Super>Delete" ];
-      www = [ "<Super>f" ];
+      www = [ "<Super>w" ];
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
@@ -61,7 +61,7 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5" = {
-      binding = "<Super>w";
+      binding = "<Shift><Super>w";
       command = "flatpak run io.github.zen_browser.zen --ProfileManager";
       name = "flatpak run io.github.zen_browser.zen --ProfileManager";
     };
