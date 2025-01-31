@@ -66,32 +66,32 @@
   ]) ++ (with pkgs.gnomeExtensions; [
 
     # Native
-    launch-new-instance
-    places-status-indicator
-    system-monitor
-    user-themes
-    windownavigator
+    # launch-new-instance
+    # places-status-indicator
+    # system-monitor
+    # user-themes
+    # windownavigator
 
     # Non-native
-    appindicator
-    arcmenu
-    blur-my-shell
-    burn-my-windows
-    caffeine
-    clipboard-indicator
-    compiz-alike-magic-lamp-effect
-    compiz-windows-effect
-    dash-to-dock
-    dash-to-panel
-    disable-unredirect-fullscreen-windows
-    focus
-    focus-changer
-    hide-top-bar
-    just-perfection
-    tiling-shell
-    quick-settings-audio-panel
-    top-bar-organizer
-    unite
+    # appindicator
+    # arcmenu
+    # blur-my-shell
+    # burn-my-windows
+    # caffeine
+    # clipboard-indicator
+    # compiz-alike-magic-lamp-effect
+    # compiz-windows-effect
+    # dash-to-dock
+    # dash-to-panel
+    # disable-unredirect-fullscreen-windows
+    # focus
+    # focus-changer
+    # hide-top-bar
+    # just-perfection
+    # tiling-shell
+    # quick-settings-audio-panel
+    # top-bar-organizer
+    # unite
 
     # Not declaratively installed
     # Alphabetical app grid
