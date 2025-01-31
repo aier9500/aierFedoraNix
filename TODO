@@ -1,33 +1,9 @@
-System Manager (?)
+Remove System-Manger stuff
+> Update readme.md
+> Restructure repo files
 
-
-#### Extensions currently in use ####
-
-Functional and aesthetic extensions: 
-
-# - appindicator # (native)
-- arcmenu
-- clipboard-indicator
-- dash-to-panel
-- just-perfection
-- quick-settings-audio-panel
-- system-monitor # (native)
-- top-bar-organizer
-- unite
-
-Aesthetic extensions: 
-- blur-my-shell
-- compiz-alike-magic-lamp-effect
-- user-themes # (native)
-
-Functional extensions: 
-- caffeine
-- focus-changer
-- launch-new-instance
-- windownavigator # (native)
-
-
-
+Make Gnome extensions imperative
+> Add file for extension list (perhaps make a Google Docs wiki)
 
 
 #### Super & Super+Shift Combos ####
