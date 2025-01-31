@@ -7,7 +7,7 @@ user_pref("zen.workspaces.show-icon-strip", false);
 user_pref("zen.workspaces.show-workspace-indicator", false);
 
 // Scrolling
-user_pref("apz.fling_friction", "0.005");
+user_pref("apz.fling_friction", "0.003");
 user_pref("apz.gtk.pangesture.delta_mode", 2);
 user_pref("apz.gtk.pangesture.pixel_delta_mode_multiplier", "10");
 
