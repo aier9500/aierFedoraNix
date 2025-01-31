@@ -5,45 +5,45 @@
   # ---- Not from Nixpkgs, DNF, nor Flatpak ----
 
   # Declare Flatpaks to install here
-  services.flatpak.packages = [
-
-    # Essentials 
-    "com.github.tchx84.Flatseal"
-    "com.mattjakeman.ExtensionManager"
-    "org.gtk.Gtk3theme.adw-gtk3"
-
-    # Important
-    "app.zen_browser.zen"
-    "com.github.finefindus.eyedropper"
-    "com.github.PintaProject.Pinta"
-    "com.obsproject.Studio"
-    "com.obsproject.Studio.Plugin.DroidCam"
-    "com.protonvpn.www"
-    "de.haeckerfelix.Fragments"
-    "dev.mufeed.Wordbook "
-    "fr.handbrake.ghb"
-    "io.missioncenter.MissionCenter"
-    "me.dusansimic.DynamicWallpaper"
-    "net.fasterland.converseen"
-    "net.nokyan.Resources"
-    "org.gnome.gitlab.somas.Apostrophe"
-    "org.gnome.gitlab.YaLTeR.VideoTrimmer"
-    "org.gnome.Solanum"
-    "org.localsend.localsend_app"
-    "org.signal.Signal"
-
-    # Additionals
-    "com.rafaelmardojai.Blanket"
-    "com.valvesoftware.Steam"
-    "dev.geopjr.Calligraphy"
-    "io.github.finefindus.Hieroglyphic"
-    "io.github.flattool.Warehouse"
-    "io.github.Foldex.AdwSteamGtk"
-    "org.blender.Blender"
-    "org.darktable.Darktable"
-    "org.audacityteam.Audacity"
-    "sh.ppy.osu"
-  ];
+  # services.flatpak.packages = [
+  # 
+  #   # Essentials 
+  #   "com.github.tchx84.Flatseal"
+  #   "com.mattjakeman.ExtensionManager"
+  #   "org.gtk.Gtk3theme.adw-gtk3"
+  # 
+  #   # Important
+  #   "app.zen_browser.zen"
+  #   "com.github.finefindus.eyedropper"
+  #   "com.github.PintaProject.Pinta"
+  #   "com.obsproject.Studio"
+  #   "com.obsproject.Studio.Plugin.DroidCam"
+  #   "com.protonvpn.www"
+  #   "de.haeckerfelix.Fragments"
+  #   "dev.mufeed.Wordbook "
+  #   "fr.handbrake.ghb"
+  #   "io.missioncenter.MissionCenter"
+  #   "me.dusansimic.DynamicWallpaper"
+  #   "net.fasterland.converseen"
+  #   "net.nokyan.Resources"
+  #   "org.gnome.gitlab.somas.Apostrophe"
+  #   "org.gnome.gitlab.YaLTeR.VideoTrimmer"
+  #   "org.gnome.Solanum"
+  #   "org.localsend.localsend_app"
+  #   "org.signal.Signal"
+  # 
+  #   # Additionals
+  #   "com.rafaelmardojai.Blanket"
+  #   "com.valvesoftware.Steam"
+  #   "dev.geopjr.Calligraphy"
+  #   "io.github.finefindus.Hieroglyphic"
+  #   "io.github.flattool.Warehouse"
+  #   "io.github.Foldex.AdwSteamGtk"
+  #   "org.blender.Blender"
+  #   "org.darktable.Darktable"
+  #   "org.audacityteam.Audacity"
+  #   "sh.ppy.osu"
+  # ];
 
   # User Apps
   home.packages = (with pkgs; [    

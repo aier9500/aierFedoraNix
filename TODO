@@ -5,6 +5,10 @@ Remove System-Manger stuff
 Make Gnome extensions imperative
 > Add file for extension list (perhaps make a Google Docs wiki)
 
+Make Flatpaks declarative
+> Add listOfFlatpaks.txt
+> Add Flatpak configs
+
 
 #### Super & Super+Shift Combos ####
 

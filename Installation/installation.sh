@@ -13,4 +13,3 @@ cd ~/.dotfiles/aierFedoraNix
 home-manager switch --flake .#default --extra-experimental-features "nix-command flakes"
 nix flake update
 home-manager switch --flake .#default
-systemctl enable flatpak-managed-install

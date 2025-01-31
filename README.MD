@@ -1,6 +1,6 @@
 # About This Repository
 
-The goal of this repository is to help you get a heads start configuring the home directory! 
+The goal of this repository is to help you get a head-start configuring the home directory! 
 
 
 ## Important Note
@@ -41,33 +41,9 @@ sudo chmod +x installation.sh
 The `installation.sh` should build the Home Manager configurations and install a few DNF packages.
 
 
-## System Manager
-
-0. Go to `~/.dotfiles/aierFedoraNix/`
-
-```
-cd ~/.dotfiles/aierFedoraNix
-```
-
-1. **You would need root privileges** either through `su` or `sudo su`
-
-```bash
-su
-```
-or
-```
-sudo su
-```
-
-2. Build System Manager for the first time
-
-```bash
-nix run 'github:numtide/system-manager' -- switch --flake .#default
-```
-
 # Optional Scripts
 
-There are additional optional scripts that add additional functionalities to your home system located in `~/.dotfiles/aierFedoraNix/Installation/OptionalScripts/`
+There are additional optional scripts and resources that add additional functionalities to your home system located in `~/.dotfiles/aierFedoraNix/Installation/OptionalScripts/`
 
 
 ### 1. customBash.rc
@@ -95,8 +71,3 @@ Guides the user through setting up Kanata in the home directory.
 ## Making the Repository distro-independent
 
 Separate Fedora specific code into its own folder so that non-Fedora users can use this repository without any trouble.
-
-
-## System-Manager Implementation
-
-Testing and implementing [system-manager by Numtide](https://github.com/numtide/system-manager) to allow for the declaration of systemd services and dotfiles at `/etc/`.
