@@ -10,8 +10,8 @@ Make Gnome extensions imperative
 
 tab: switch apps
 q: QUICK settings, show dock
-w: WEB - zen browser profile picker 
-f: FIREFOX
+w: WEB - Firefox, zen browser profile picker 
+f: toggle FULLSCREEN
 p: 
 b: 
 j: 
