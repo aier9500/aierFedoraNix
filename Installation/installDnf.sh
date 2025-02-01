@@ -1,8 +1,9 @@
+sudo dnf install chromium -y
 sudo dnf install dconf-editor -y
 sudo dnf install gnome-tweaks -y
 sudo dnf install gparted -y
+sudo dnf install timeshift -y
 sudo dnf install waydroid -y
-sudo dnf install chromium -y
 
 # VScode
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
