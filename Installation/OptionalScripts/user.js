@@ -1,3 +1,5 @@
+user_pref("browser.tabs.hoverPreview.enabled", true);
+
 // Zen
 user_pref("zen.glance.activation-method", "alt");
 user_pref("zen.sidebar.close-on-blur", false);
