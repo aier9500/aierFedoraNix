@@ -31,7 +31,7 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/shell/extensions/blur-my-shell/lockscreen" = {
-      blur = true; 
+      blur = false; 
       pipeline = "pipeline_default";
     };
 
@@ -42,9 +42,11 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/shell/extensions/blur-my-shell/panel" = {
-      blur = false;
+      blur = true;
+      override-background = true; 
       pipeline = "pipeline_default";
       static-blur = true;
+      style-panel = 3; 
     };
 
     "org/gnome/shell/extensions/blur-my-shell/screenshot" = {
