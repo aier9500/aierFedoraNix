@@ -1,9 +1,14 @@
 alphabetical app grid
+appindicator
 auto power profile
 caffeine
 clipboard indicator
+focus changer
+gsconnect
 just perfection
 launch new instance
-luminous desktop
+lockscreen extension
+luminus desktop
 quick settings audio panel
-unite 
+unite
+windownavigator
