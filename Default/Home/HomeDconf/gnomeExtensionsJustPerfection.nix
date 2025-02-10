@@ -9,6 +9,8 @@ with lib.hm.gvariant;
       animation = 4;
       dash = false; 
       notification-banner-position = 1; # 1 for top center, 2 for top right, 5 for bottom right
+      panel = true;
+      panel-in-overview = true;
       panel-size = 32; 
       search = false;
       workspaces-in-app-grid = true; # false for clean app grid
