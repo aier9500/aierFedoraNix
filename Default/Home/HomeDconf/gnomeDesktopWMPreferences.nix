@@ -7,7 +7,8 @@ with lib.hm.gvariant;
   dconf.settings = {
     "org/gnome/desktop/wm/preferences" = {
       action-middle-click-titlebar = "minimize";
-      focus-mode = "click"; 
+      button-layout = ":minimize,maximize,close";
+      focus-mode = "click";
     };
 
   };
