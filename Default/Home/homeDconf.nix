@@ -13,7 +13,7 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeExtensionsArcmenu.nix
     ./HomeDconf/gnomeExtensionsBlurMyShell.nix
     ./HomeDconf/gnomeExtensionsCaffeine.nix
-    ./HomeDconf/gnomeExtensionsClipboardManager.nix
+    # ./HomeDconf/gnomeExtensionsClipboardManager.nix
     ./HomeDconf/gnomeExtensionsFocusChanger.nix
     ./HomeDconf/gnomeExtensionsHidetopbar.nix
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
