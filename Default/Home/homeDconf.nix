@@ -12,18 +12,13 @@ with lib.hm.gvariant;
     ./HomeDconf/gnomeExtensionsAppindicator.nix
     ./HomeDconf/gnomeExtensionsArcmenu.nix
     ./HomeDconf/gnomeExtensionsBlurMyShell.nix
-    ./HomeDconf/gnomeExtensionsBurnMyWindows.nix
     ./HomeDconf/gnomeExtensionsCaffeine.nix
     ./HomeDconf/gnomeExtensionsClipboardManager.nix
-    ./HomeDconf/gnomeExtensionsComGithubHermes83CompizWindowsEffect.nix
-    ./HomeDconf/gnomeExtensionsDashToDock.nix
-    ./HomeDconf/gnomeExtensionsDashToPanel.nix
+    ./HomeDconf/gnomeExtensionsFocusChanger.nix
     ./HomeDconf/gnomeExtensionsHidetopbar.nix
     ./HomeDconf/gnomeExtensionsJustPerfection.nix
-    ./HomeDconf/gnomeExtensionsNcomGithubHermes83CompizAlikeMagicLampEffect.nix
+    ./HomeDconf/gnomeExtensionsPano.nix
     ./HomeDconf/gnomeExtensionsQuickSettingsAudioPanel.nix
-    ./HomeDconf/gnomeExtensionsTilingshell.nix
-    ./HomeDconf/gnomeExtensionsTopBarOrganizer.nix
     ./HomeDconf/gnomeExtensionsUnite.nix
     ./HomeDconf/gnomeExtensionsUserTheme.nix
     ./HomeDconf/gnomeMediaKeys.nix
