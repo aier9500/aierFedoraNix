@@ -7,8 +7,10 @@ focus changer
 gsconnect
 just perfection
 launch new instance
-lockscreen extension
 luminus desktop
+lockscreen extension
+pano
 quick settings audio panel
 unite
+user themes
 windownavigator
