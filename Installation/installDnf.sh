@@ -13,6 +13,3 @@ sudo dnf install code -y
 
 # Screen Copy
 sudo dnf copr enable zeno/scrcpy -y && sudo dnf install scrcpy -y
-
-# Vesktop
-sudo dnf copr enable jeffpeng3/vesktop -y && sudo dnf install vesktop -y

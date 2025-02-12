@@ -2,7 +2,6 @@ alphabetical app grid
 appindicator
 auto power profile
 caffeine
-clipboard indicator
 focus changer
 gsconnect
 just perfection
@@ -12,5 +11,4 @@ lockscreen extension
 pano
 quick settings audio panel
 unite
-user themes
 windownavigator

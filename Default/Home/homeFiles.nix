@@ -9,15 +9,15 @@
     ".local/share/fonts/noto-fonts-cjk-sans".source = "${pkgs.noto-fonts-cjk-sans}/share/fonts/opentype/noto-cjk"; 
 
     # ---- icons ----
-    ".local/share/icons/Bibata-Modern-Ice".source = "${pkgs.bibata-cursors}/share/icons/Bibata-Modern-Ice";
-    ".local/share/icons/catppuccin-latte-light-cursors".source = "${pkgs.catppuccin-cursors.latteLight}/share/icons/catppuccin-latte-light-cursors"; # Temporarily disabled
+    # ".local/share/icons/Bibata-Modern-Ice".source = "${pkgs.bibata-cursors}/share/icons/Bibata-Modern-Ice";
+    # ".local/share/icons/catppuccin-latte-light-cursors".source = "${pkgs.catppuccin-cursors.latteLight}/share/icons/catppuccin-latte-light-cursors"; # Temporarily disabled
     # ".local/share/icons/WhiteSur-cursors".source = "${pkgs.whitesur-cursors}/share/icons/WhiteSur-cursors"; # Temporarily disabled
 
     # ---- themes ----
-    ".local/share/themes/Marble-blue-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-light";
-    ".local/share/themes/Marble-blue-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-dark";
-    ".local/share/themes/Marble-purple-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-light";
-    ".local/share/themes/Marble-purple-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-dark";
+    # ".local/share/themes/Marble-blue-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-light";
+    # ".local/share/themes/Marble-blue-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-blue-dark";
+    # ".local/share/themes/Marble-purple-light".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-light";
+    # ".local/share/themes/Marble-purple-dark".source = "${pkgs.marble-shell-theme}/share/themes/Marble-purple-dark";
     ".local/share/themes/adw-gtk3".source = "${pkgs.adw-gtk3}/share/themes/adw-gtk3";
     ".local/share/themes/adw-gtk3-dark".source = "${pkgs.adw-gtk3}/share/themes/adw-gtk3-dark";
 

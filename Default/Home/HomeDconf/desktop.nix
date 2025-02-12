@@ -5,6 +5,27 @@ with lib.hm.gvariant;
 
 {
   dconf.settings = {
+    "org/gnome/desktop/interface" = {
+      clock-format = "24h"; 
+      # color-scheme = "default"; # Prefer dark or light
+      # cursor-size = 20;
+      # cursor-theme = "Bibata-Modern-Ice"; # Adwaita, Bibata-Modern-Ice
+      document-font-name = "Noto Serif CJK TC 11 @wght=400"; # Serif/Document font # Default pt 11, alt 12.5
+      enable-hot-corners = false; 
+      font-antialiasing = "rgba";
+      font-hinting = "full";
+      font-name = "IBM Plex Sans 11"; # Sans/Interface/Backup font # Default pt 11, alt 12.5
+      gtk-enable-primary-paste = false;
+      gtk-theme = "adw-gtk3";
+      monospace-font-name = "IBM Plex Mono 10"; # Mono font # default 10, alt 12
+      show-battery-percentage = true;
+      # text-scaling-factor = 1; 
+    };
+
+    "org/gnome/desktop/sound" = {
+      allow-volume-above-100-percent = true;
+    };
+
     "org/gnome/desktop/wm/keybindings" = {
       activate-window-menu = [];
       always-on-top = [ "<Super>a" ];
@@ -54,6 +75,12 @@ with lib.hm.gvariant;
       toggle-maximized = [ "F10" "<Super>u" ];
       toggle-on-all-workspaces = [ "<Shift><Super>a" ];
       unmaximize = [ "<Super>Down" ]; 
+    };
+
+    "org/gnome/desktop/wm/preferences" = {
+      action-middle-click-titlebar = "minimize";
+      button-layout = ":minimize,maximize,close";
+      focus-mode = "click";
     };
 
   };
