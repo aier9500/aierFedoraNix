@@ -80,7 +80,7 @@ with lib.hm.gvariant;
     "org/gnome/desktop/wm/preferences" = {
       action-middle-click-titlebar = "minimize";
       button-layout = ":minimize,maximize,close";
-      focus-mode = "click";
+      focus-mode = "sloppy";
     };
 
   };
