@@ -9,7 +9,7 @@ with lib.hm.gvariant;
     "org/gnome/mutter" = {
 
       # attach-modal-dialogs = true;
-      # auto-maximize = false; 
+      auto-maximize = true; 
       center-new-windows = true;
       # dynamic-workspaces = true; 
       # edge-tiling = true; # Temporarily disabled for tiling shell
