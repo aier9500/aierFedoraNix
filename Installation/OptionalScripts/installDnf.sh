@@ -13,3 +13,15 @@ sudo dnf install code -y
 
 # Screen Copy
 sudo dnf copr enable zeno/scrcpy -y && sudo dnf install scrcpy -y
+
+# Hyprland
+sudo dnf install hyprland -y
+sudo dnf install hyprshot -y
+sudo dnf install hyprpaper -y
+sudo dnf install blueman -y 
+sudo dnf install nm-applet -y
+sudo dnf install copyq -y
+sudo dnf install swaync -y
+sudo dnf install wlogout -y
+sudo dnf install pavucontrol -y
+flatpak install com.obsproject.Studio
