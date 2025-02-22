@@ -1,14 +1,12 @@
 alphabetical app grid
 auto power profile
 caffeine
-focus changer
+forge
 gsconnect
-highlight focus
 just perfection
 launch new instance
 luminus desktop
 lockscreen extension
-mouse follows focus
 pano
 unite
 windownavigator
