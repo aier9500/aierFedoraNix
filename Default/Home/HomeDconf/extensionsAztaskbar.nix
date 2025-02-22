@@ -5,14 +5,11 @@ with lib.hm.gvariant;
 
 {
   dconf.settings = {
-    "" = {
+    "org/gnome/shell/extensions/aztaskbar" = {
       icon-size = 18;
-      icon-style = "SYMBOLIC";
       indicator-location = "BOTTOM";
       isolate-workspaces = false;
       main-panel-height = mkTuple [ true 32 ];
-      multi-window-indicator-style = "MULTI_DASH";
-      show-apps-button = mkTuple [ true 0 ];
     };
 
   };
