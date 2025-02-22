@@ -1,14 +1,14 @@
 alphabetical app grid
-appindicator
 auto power profile
 caffeine
 focus changer
 gsconnect
+highlight focus
 just perfection
 launch new instance
 luminus desktop
 lockscreen extension
+mouse follows focus
 pano
-quick settings audio panel
 unite
 windownavigator
