@@ -15,7 +15,7 @@ with lib.hm.gvariant;
       hide-window-titlebars = "maximized"; # maximized
       notifications-position = "center";
       reduce-panel-spacing = true;
-      show-appmenu-button = true; # window title
+      show-appmenu-button = false; # window title, true to show
       show-legacy-tray = false;
       show-window-buttons = "never"; # maximized
       show-desktop-name = false;
