@@ -6,6 +6,7 @@ with lib.hm.gvariant;
   
   imports = [
     ./HomeDconf/desktop.nix
+    # ./HomeDconf/extensionsForge.nix
     ./HomeDconf/gnomeExtensionsAppindicator.nix
     # ./HomeDconf/gnomeExtensionsArcmenu.nix
     ./HomeDconf/gnomeExtensionsCaffeine.nix
