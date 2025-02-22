@@ -28,7 +28,7 @@ bracketright:
 
 a: ALWAYS-on-top, ALWAYS-visible
 r: RUN
-s: 
+s: toggle app drawer
 t: TEXT editor, Apostrophe Markdown
 g: 
 m: MESSAGES - notification center

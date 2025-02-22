@@ -27,6 +27,7 @@ with lib.hm.gvariant;
       rotate-video-lock-static = [];
       screenreader = [];
       screensaver = [ "<Super>Delete" ];
+      volume-step = 5;
       www = [ "<Super>w" ];
     };
 
