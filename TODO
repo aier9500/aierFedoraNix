@@ -1,13 +1,16 @@
-Remove System-Manger stuff
-> Update readme.md
-> Restructure repo files
-
 Make Gnome extensions imperative
 > Add file for extension list (perhaps make a Google Docs wiki)
 
-Make Flatpaks declarative
+Make Flatpaks imperative
 > Add listOfFlatpaks.txt
 > Add Flatpak configs
+
+Move Kanata files from being declared to into the Installation folder
+> Restructuring
+> Rewriting the script to accomodate for the new, imperative files
+> Testing
+> Updating readme.md
+
 
 
 #### Super & Super+Shift Combos ####
