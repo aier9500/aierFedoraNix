@@ -1,9 +1,9 @@
 Make Gnome extensions imperative
 > Add file for extension list (perhaps make a Google Docs wiki)
 
-Make Flatpaks imperative
-> Add listOfFlatpaks.txt
-> Add Flatpak configs
+Flatpaks
+> Distinguish personal Flatpak dotfiles
+> Link to Flatpak/app Docs (Linux Apps Library)
 
 Move Kanata files from being declared to into the Installation folder
 > Restructuring
