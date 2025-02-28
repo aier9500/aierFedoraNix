@@ -7,7 +7,8 @@ with lib.hm.gvariant;
   dconf.settings = {
     "org/gnome/shell/extensions/pano" = {
       global-shortcut = [ "<Super>v" ];
-      history-length = 30;
+      history-length = 10;
+      paste-on-select = false;
       play-audio-on-copy = false;
       send-notification-on-copy = false;
     };
