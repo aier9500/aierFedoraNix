@@ -10,6 +10,7 @@ with lib.hm.gvariant;
       indicator-location = "BOTTOM";
       isolate-workspaces = false;
       main-panel-height = mkTuple [ true 32 ];
+      show-apps-button = mkTuple [ true 1 ];
     };
 
   };
