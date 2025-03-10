@@ -46,7 +46,7 @@ with lib.hm.gvariant;
       move-to-workspace-left = [ "<Shift><Control><Super>left" "<Super>bracketleft" ];
       move-to-workspace-right = [ "<Shift><Control><Super>right" "<Super>bracketright" ];
       move-to-workspace-up = [];
-      panel-run-dialog = [ "<Super>r" ];
+      panel-run-dialog = [ "<Alt>F2" ]; # <Alt>F2
       show-desktop = [ "<Super>d" ];
       switch-applications = [ "<Super>Tab" ];
       switch-applications-backward = [ "<Shift><Super>Tab" ];
