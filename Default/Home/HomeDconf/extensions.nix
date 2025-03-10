@@ -13,7 +13,7 @@ with lib.hm.gvariant;
 
     # Arcmenu (inactive)
     "org/gnome/shell/extensions/arcmenu" = {
-      arcmenu-hotkey = [ "Super_L" ]; # Super_L, <Super>r; temporarily set ?
+      arcmenu-hotkey = [ "<Alt>space" ]; # Super_L, <Super>r; temporarily set ?
       distro-icon = 15; # RedHat Icon bc it looks like Linux Premium
       highlight-result-terms = true; 
       menu-button-appearance = "None";
@@ -63,6 +63,7 @@ with lib.hm.gvariant;
       animation = 1; # 1 # 5 is fast, 4 is slow
       dash = false;
       notification-banner-position = 1; #1 # 1 for top center, 2 for top right, 5 for bottom right
+      overlay-key = false;
       panel = true; # true
       panel-in-overview = true; # true
       panel-size = 0; # 0
