@@ -16,7 +16,7 @@ Move Kanata files from being declared to into the Installation folder
 #### Super & Super+Shift Combos ####
 
 tab: switch apps
-q: QUICK settings, show dock
+q: QUICK settings
 w: WEB - Firefox, zen browser profile picker 
 f: toggle FULLSCREEN
 p: 
@@ -25,14 +25,14 @@ j:
 l: toggle-tiled-left
 u: toggle-maximized
 y: toggle-tiled-right
-semicolon: move-to-workspace-left
-bracketleft: move-to-workspace-right
-bracketright: 
+semicolon: 
+bracketleft: move-to-workspace-left
+bracketright: move-to-workspace-right
 
 a: ALWAYS-on-top, ALWAYS-visible
-r: RUN
+r: toggle overview
 s: toggle app drawer
-t: TEXT editor, Apostrophe Markdown
+t: 
 g: 
 m: MESSAGES - notification center
 n: switch-to-workspace-left
