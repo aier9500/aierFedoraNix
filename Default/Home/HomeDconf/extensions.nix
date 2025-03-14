@@ -16,7 +16,7 @@ with lib.hm.gvariant;
       arcmenu-hotkey = [ "<Alt>space" ]; # Super_L, <Super>r; temporarily set ?
       distro-icon = 15; # RedHat Icon bc it looks like Linux Premium
       highlight-result-terms = true; 
-      menu-background-color = "rgba(0,0,0,0.75)";
+      menu-background-color = "rgba(32,32,32,0.8)";
       menu-border-color = "rgba(253,101,101,0.8)";
       menu-border-radius = 12;
       menu-border-width = 2;
