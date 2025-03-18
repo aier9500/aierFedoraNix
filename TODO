@@ -1,16 +1,8 @@
 Linux App Library
 > Flatpaks + dotfiles
 > Gnome extensions
+> Kanata instructions + dotfiles
 
-Make Gnome extensions imperative
-> Add file for extension list (perhaps make a Google Docs wiki)
-
-
-Move Kanata files from being declared to into the Installation folder
-> Restructuring
-> Rewriting the script to accomodate for the new, imperative files
-> Testing
-> Updating readme.md
 
 
 
