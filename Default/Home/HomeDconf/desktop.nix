@@ -10,15 +10,15 @@ with lib.hm.gvariant;
       # color-scheme = "default"; # Prefer dark or light
       # cursor-size = 20;
       # cursor-theme = "Bibata-Modern-Ice"; # Adwaita, Bibata-Modern-Ice
-      document-font-name = "Noto Serif CJK TC 11 @wght=400"; # Serif/Document font # Default pt 11, alt 12.5
-      enable-hot-corners = false; 
+      # document-font-name = "Noto Serif CJK TC 11 @wght=400"; # Serif/Document font # 11 pt
+      # enable-hot-corners = false; 
       font-antialiasing = "rgba";
       font-hinting = "full";
-      font-name = "IBM Plex Sans 10.5"; # Sans/Interface/Backup font # Default pt 11, alt 12.5
-      gtk-enable-primary-paste = false;
+      # font-name = "IBM Plex Sans 10.5"; # Sans/Interface/Backup font # 11 pt
+      # gtk-enable-primary-paste = false;
       gtk-theme = "adw-gtk3";
-      monospace-font-name = "IBM Plex Mono 10"; # Mono font # default 10, alt 12
-      show-battery-percentage = true;
+      monospace-font-name = "IBM Plex Mono 10"; # Mono font # 10 pt
+      # show-battery-percentage = false; # false
       # text-scaling-factor = 1; 
     };
 
@@ -28,8 +28,8 @@ with lib.hm.gvariant;
 
     "org/gnome/desktop/wm/preferences" = {
       action-middle-click-titlebar = "minimize";
-      button-layout = ":close";
-      focus-mode = "click"; # click # sloppy # mouse
+      # button-layout = ":close"; # :close
+      # focus-mode = "click"; # click # sloppy # mouse
     };
 
   };
