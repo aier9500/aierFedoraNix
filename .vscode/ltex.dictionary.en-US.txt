@@ -1,0 +1,4 @@
+aierFedoraNix
+bashrc
+Kanata
+Zoxide

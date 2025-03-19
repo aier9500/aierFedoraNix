@@ -1,12 +1,14 @@
-## About This Repository
+# aierFedoraNix
 
 The goal of this repository is to help you get a head-start configuring the home directory!
+
+aierFedoraNix GREATLY CHANGES THE GNOME WORKFLOW! **USAGE WITHOUT KNOWLEDGE OF NIX IS NOT RECOMMENDED!**
 
 # Installation
 
 ## Important Note
 
-1. Some of the scripts in this repository may require your to **clone this repository into `~/.dotfiles/`** to work correctly.
+1. Some scripts in this repository may require you to **clone this repository into `~/.dotfiles/`** to work correctly.
 
 2. **You need an installation of the Nix package manager** to use the code in this repository. For installing Nix, check the [Determinate System Installer](https://determinate.systems/posts/determinate-nix-installer/).
 
@@ -31,9 +33,9 @@ cd ~/.dotfiles
 git clone https://github.com/aier9500/aierFedoraNix
 ```
 
-3. Change the variables `home.username` and `home.homeDirectory` in the `home.nix` file to suit your system.
+3. Go to the `home.nix` file and change the variables `home.username` and `home.homeDirectory` to suit your system.
 
-- `home.username = "XXXX";` Replace with your username; you can check this by opening the terminal.
+- `home.username = "XXXX";` Replace `XXXX` with your username. You can check this by opening the terminal.
 - `home.homeDirectory = "/home/XXXX";` Replace with directory of your home folder.
 
 4. Run the `installation.sh` file in `~/.dotfiles/aierFedoraNix/Installation/`.
@@ -52,7 +54,7 @@ There are additional optional scripts and resources that add additional function
 
 ### 1. customBash.sh
 
-Replaces the original .bashrc file in the home directory with one that has the following modified:
+Replaces the original `.bashrc` file in the home directory with one that has the following modified:
 
 - PS1 variable (for a more aesthetic appearance).
 - Alias definitions.
@@ -78,10 +80,10 @@ Installs a few highly recommended DNF apps.
 
 # Roadmap
 
-### [x] Making the Repository distro-independent
+- [ ] Integrating `aierFedoraNix/Installation/` with the Linux App Library.
 
-Separate Fedora specific code into its own folder so that non-Fedora users can use this repository without any trouble.
+  - [ ]
 
-### [ ] Install script for Flatpak apps
+- [ ] Install script for Flatpak apps.
 
-FFF Integration with the Linux App Library
+- [ ] Rename repo to homeManagerDots.
