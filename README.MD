@@ -6,7 +6,7 @@ The goal of this repository is to help you get a head-start configuring the home
 
 ## Important Note
 
-1. Some of the scripts in this repository may require your to **clone this repository into `~/.dotfiles/`** to work correctly.
+1. Some scripts in this repository may require you to **clone this repository into `~/.dotfiles/`** to work correctly.
 
 2. **You need an installation of the Nix package manager** to use the code in this repository. For installing Nix, check the [Determinate System Installer](https://determinate.systems/posts/determinate-nix-installer/).
 
@@ -78,10 +78,5 @@ Installs a few highly recommended DNF apps.
 
 # Roadmap
 
-### [x] Making the Repository distro-independent
-
-Separate Fedora specific code into its own folder so that non-Fedora users can use this repository without any trouble.
-
-### [ ] Install script for Flatpak apps
-
-FFF Integration with the Linux App Library
+- [ ] Integration with the Linux App Library
+- [ ] Rename to nixDots
