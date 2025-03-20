@@ -46,6 +46,10 @@ sudo chmod +x installation.sh
 
 The `installation.sh` should build the Home Manager configurations.
 
+```bash
+reboot
+```
+
 # Optional Scripts
 
 There are additional optional scripts and resources that add additional functionalities to your home system located in `~/.dotfiles/aierFedoraNix/Installation/OptionalScripts/`.
