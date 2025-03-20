@@ -9,19 +9,14 @@ with lib.hm.gvariant;
     "org/gnome/mutter" = {
 
       # attach-modal-dialogs = true;
-      auto-maximize = true; 
+      # auto-maximize = false; # true
       center-new-windows = true;
-      # dynamic-workspaces = true; 
-      # edge-tiling = true; # Temporarily disabled for tiling shell
+      # dynamic-workspaces = true; # true
+      # edge-tiling = true; # true
       # experimental-features = ["scale-monitor-framebuffer" "xwayland-native-scaling"];
-      focus-change-on-pointer-rest = false;
-      workspaces-only-on-primary = true; 
+      focus-change-on-pointer-rest = false; # true
+      workspaces-only-on-primary = true; # false
     };
 
-    "org/gnome/mutter/keybindings" = {
-
-      toggle-tiled-left = [ "<Super>left" "<Super>l" ];
-      toggle-tiled-right = [ "<Super>right" "<Super>y" ];
-    };
   };
 }

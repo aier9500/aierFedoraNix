@@ -88,5 +88,10 @@ with lib.hm.gvariant;
       unmaximize = [ "<Super>Down" ]; 
     };
 
+    "org/gnome/mutter/keybindings" = {
+      toggle-tiled-left = [ "<Super>left" "<Super>l" ];
+      toggle-tiled-right = [ "<Super>right" "<Super>y" ];
+    };
+
   };
 }
