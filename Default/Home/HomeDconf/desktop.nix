@@ -10,26 +10,27 @@ with lib.hm.gvariant;
       # color-scheme = "default"; # Prefer dark or light
       # cursor-size = 20;
       # cursor-theme = "Bibata-Modern-Ice"; # Adwaita, Bibata-Modern-Ice
-      document-font-name = "Noto Serif CJK TC 11 @wght=400"; # Serif/Document font # pt 11
+      # document-font-name = "Noto Serif CJK TC 11 @wght=400"; # Serif/Document font # 11 pt
       enable-hot-corners = false; 
       font-antialiasing = "rgba";
       font-hinting = "full";
-      font-name = "IBM Plex Sans 10.5"; # Sans/Interface/Backup font # pt 11
-      gtk-enable-primary-paste = false;
+      # font-name = "IBM Plex Sans 10.5"; # Sans/Interface/Backup font # 11 pt
+      # gtk-enable-primary-paste = false;
       gtk-theme = "adw-gtk3";
-      monospace-font-name = "IBM Plex Mono 10"; # Mono font # pt 10
-      show-battery-percentage = false; # false
+      monospace-font-name = "IBM Plex Mono 10"; # Mono font # 10 pt
+      # show-battery-percentage = false; # false
       # text-scaling-factor = 1; 
     };
 
     "org/gnome/desktop/sound" = {
       allow-volume-above-100-percent = true;
+      theme-name = "ocean";
     };
 
     "org/gnome/desktop/wm/preferences" = {
       action-middle-click-titlebar = "minimize";
-      button-layout = ":close";
-      focus-mode = "click"; # click # sloppy # mouse
+      # button-layout = ":close"; # :close
+      # focus-mode = "click"; # click # sloppy # mouse
     };
 
   };

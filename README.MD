@@ -10,9 +10,9 @@ aierFedoraNix GREATLY CHANGES THE GNOME WORKFLOW! **USAGE WITHOUT KNOWLEDGE OF N
 
 1. Some scripts in this repository may require you to **clone this repository into `~/.dotfiles/`** to work correctly.
 
-2. **You need an installation of the Nix package manager** to use the code in this repository. For installing Nix, check the [Determinate System Installer](https://determinate.systems/posts/determinate-nix-installer/).
+1. **You need an installation of the Nix package manager** to use the code in this repository. For installing Nix, check the [Determinate System Installer](https://determinate.systems/posts/determinate-nix-installer/).
 
-3. You would want to **restart your system** after installing nix before proceeding to the installation.
+1. You would want to **restart your system** after installing nix before proceeding to the installation.
 
 ## First Steps
 
@@ -47,6 +47,10 @@ sudo chmod +x installation.sh
 ```
 
 The `installation.sh` should build the Home Manager configurations.
+
+```bash
+reboot
+```
 
 # Optional Scripts
 
