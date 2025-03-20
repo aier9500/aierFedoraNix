@@ -51,6 +51,8 @@ with lib.hm.gvariant;
     # Panel Taskbar (active)
     "org/gnome/shell/extensions/aztaskbar" = {
       icon-size = 18;
+      indicator-focused = "rgba(255,255,255,0.8)";
+      indicator-running = "rgba(255,255,255,0.8)";
       indicator-location = "BOTTOM";
       isolate-workspaces = false;
       main-panel-height = mkTuple [ true 32 ];
