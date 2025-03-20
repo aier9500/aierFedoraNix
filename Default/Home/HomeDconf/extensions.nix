@@ -5,13 +5,18 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
 
-    # AppIndicator (active)
+    # Alphabetical App grid (active)
+    "org/gnome/shell/extensions/alphabetical-app-grid" = {
+      folder-order-position = "start";
+    };
+
+    # AppIndicator (inactive)
     "org/gnome/shell/extensions/appindicator" = {
       icon-saturation = 1.0; # 1.0
       tray-pos = "right";
     };
 
-    # Arcmenu (inactive)
+    # Arcmenu (active)
     "org/gnome/shell/extensions/arcmenu" = {
       arcmenu-hotkey = [ "<Alt>space" ]; # Super_L, <Super>r; temporarily set ?
       distro-icon = 15; # RedHat Icon bc it looks like Linux Premium
@@ -57,7 +62,7 @@ with lib.hm.gvariant;
       enable-fullscreen = false;
     };
 
-    # Clipboard Indicator (inactive)
+    # Clipboard Indicator (active)
     "org/gnome/shell/extensions/clipboard-indicator" = {
       toggle-menu = [ "<Super>v" ];
     };
@@ -86,7 +91,7 @@ with lib.hm.gvariant;
       workspace-switcher-size = 13; # 0
     };
 
-    # Pano (active)
+    # Pano (inactive)
     "org/gnome/shell/extensions/pano" = {
       global-shortcut = [ "<Super>v" ];
       history-length = 10;
@@ -95,7 +100,7 @@ with lib.hm.gvariant;
       send-notification-on-copy = false;
     };
 
-    # Unite (active)
+    # Unite (inactive)
     "org/gnome/shell/extensions/unite" = {
       app-menu-max-width = 350;
       desktop-name-text = "GNOME Desktop";
