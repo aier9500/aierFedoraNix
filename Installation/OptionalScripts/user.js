@@ -8,7 +8,7 @@ user_pref("zen.tabs.vertical.right-side", true);
 user_pref("zen.view.compact.hide-toolbar", true); 
 user_pref("zen.view.show-newtab-button-top", false);
 user_pref("zen.workspaces.show-icon-strip", false);
-user_pref("zen.workspaces.show-workspace-indicator", false);
+user_pref("zen.workspaces.show-workspace-indicator", true);
 
 // Scrolling
 user_pref("apz.fling_friction", "0.002");
