@@ -33,6 +33,7 @@ with lib.hm.gvariant;
       override-menu-theme = true;
       runner-menu-height = 800;
       runner-menu-width = 600;
+      runner-position = "Centered";
       runner-search-display-style = "Grid";
       runner-show-frequent-apps = true;
       search-provider-open-windows = false; 
