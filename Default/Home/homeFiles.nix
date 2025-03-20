@@ -22,7 +22,7 @@
     ".local/share/themes/adw-gtk3-dark".source = "${pkgs.adw-gtk3}/share/themes/adw-gtk3-dark";
 
     # ---- sounds ----
-    ".local/share/sounds/ocean".source = "${pkgs.kdePackages.ocean-sound-theme}/share/themes/ocean-sound-theme";
+    ".local/share/sounds/ocean".source = "${pkgs.kdePackages.ocean-sound-theme}/share/sounds/ocean";
 
     # ---- bash ----
     "Bash/homesw.sh" = {
