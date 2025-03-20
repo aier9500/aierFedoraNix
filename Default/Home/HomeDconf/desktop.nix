@@ -11,7 +11,7 @@ with lib.hm.gvariant;
       # cursor-size = 20;
       # cursor-theme = "Bibata-Modern-Ice"; # Adwaita, Bibata-Modern-Ice
       # document-font-name = "Noto Serif CJK TC 11 @wght=400"; # Serif/Document font # 11 pt
-      enable-hot-corners = false; 
+      # enable-hot-corners = true; # true
       font-antialiasing = "rgba";
       font-hinting = "full";
       # font-name = "IBM Plex Sans 10.5"; # Sans/Interface/Backup font # 11 pt
