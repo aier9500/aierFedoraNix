@@ -5,7 +5,7 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
 
-    # Alphabetical App grid (active)
+    # Alphabetical App grid (inactive)
     "org/gnome/shell/extensions/alphabetical-app-grid" = {
       folder-order-position = "start";
     };
@@ -56,7 +56,7 @@ with lib.hm.gvariant;
       indicator-location = "BOTTOM";
       isolate-workspaces = false;
       main-panel-height = mkTuple [ true 32 ];
-      show-apps-button = mkTuple [ true 1 ];
+      show-apps-button = mkTuple [ false 1 ]; # alt: true 1
     };
 
     # Caffeine (active)
@@ -64,7 +64,7 @@ with lib.hm.gvariant;
       enable-fullscreen = false;
     };
 
-    # Clipboard Indicator (active)
+    # Clipboard Indicator (inactive)
     "org/gnome/shell/extensions/clipboard-indicator" = {
       toggle-menu = [ "<Super>v" ];
     };
@@ -77,7 +77,7 @@ with lib.hm.gvariant;
       focus-up = [ "<Shift><Super>u" ];
     };
 
-    # Just Perfection (active)
+    # Just Perfection (inactive)
     "org/gnome/shell/extensions/just-perfection" = {
       animation = 1; # 1 # 5 is fast, 4 is slow
       dash = false;
@@ -122,6 +122,7 @@ with lib.hm.gvariant;
       window-buttons-theme = "adwaita";
     };
 
+    # Vertical Workspaces (active)
     "org/gnome/shell/extensions/vertical-workspaces" = {
       app-display-module = true;
       app-favorites-module = false;
@@ -134,7 +135,7 @@ with lib.hm.gvariant;
       overlay-key-module = true;
       overlay-key-primary = 0;
       overlay-key-secondary = 0;
-      panel-module = false;
+      panel-module = true;
       search-controller-module = false;
       search-module = false;
       show-ws-preview-bg = false;
@@ -142,10 +143,13 @@ with lib.hm.gvariant;
       swipe-tracker-module = false;
       win-attention-handler-module = false;
       window-manager-module = false;
-      window-preview-module = false;
+      window-preview-module = true;
+      win-title-position = 0;
       workspace-animation-module = true;
       workspace-module = false;
       workspace-switcher-popup-module = true;
+      ws-max-spacing = 50; # 350
+      ws-preview-scale = 95; # 95
       ws-sw-popup-mode = 0;
       ws-thumbnails-position = 5; # 5 top, 6 bottom
       wst-position-adjust = 0;
