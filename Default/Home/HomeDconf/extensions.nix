@@ -122,5 +122,30 @@ with lib.hm.gvariant;
       window-buttons-theme = "adwaita";
     };
 
+    "org/gnome/shell/extensions/vertical-workspaces" = {
+      app-favorites-module = false;
+      app-folder-order = 1;
+      app-grid-order = 2;
+      dash-module = false;
+      layout-module = false;
+      message-tray-module = false;
+      osd-window-module = false;
+      overlay-key-module = true;
+      overlay-key-primary = 0;
+      overlay-key-secondary = 0;
+      panel-module = false;
+      search-controller-module = false;
+      search-module = false;
+      # show-wst-labels = 3; # 3
+      swipe-tracker-module = false;
+      win-attention-handler-module = false;
+      window-manager-module = false;
+      window-preview-module = false;
+      workspace-animation-module = true;
+      workspace-module = false;
+      workspace-switcher-popup-module = false;
+      ws-thumbnails-position = 5;
+      wst-position-adjust = 0;
+    };
   };
 }
