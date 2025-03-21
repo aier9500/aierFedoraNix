@@ -144,7 +144,7 @@ with lib.hm.gvariant;
       workspace-animation-module = true;
       workspace-module = false;
       workspace-switcher-popup-module = false;
-      ws-thumbnails-position = 5;
+      ws-thumbnails-position = 6;
       wst-position-adjust = 0;
     };
   };
