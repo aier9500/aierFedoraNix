@@ -123,6 +123,7 @@ with lib.hm.gvariant;
     };
 
     "org/gnome/shell/extensions/vertical-workspaces" = {
+      app-display-module = true;
       app-favorites-module = false;
       app-folder-order = 1;
       app-grid-order = 2;
@@ -136,15 +137,17 @@ with lib.hm.gvariant;
       panel-module = false;
       search-controller-module = false;
       search-module = false;
-      # show-wst-labels = 3; # 3
+      show-ws-preview-bg = false;
+      show-wst-labels = 0; # 3
       swipe-tracker-module = false;
       win-attention-handler-module = false;
       window-manager-module = false;
       window-preview-module = false;
       workspace-animation-module = true;
       workspace-module = false;
-      workspace-switcher-popup-module = false;
-      ws-thumbnails-position = 6;
+      workspace-switcher-popup-module = true;
+      ws-sw-popup-mode = 0;
+      ws-thumbnails-position = 5; # 5 top, 6 bottom
       wst-position-adjust = 0;
     };
   };
