@@ -148,7 +148,7 @@ with lib.hm.gvariant;
       workspace-animation-module = true;
       workspace-module = false;
       workspace-switcher-popup-module = true;
-      ws-max-spacing = 50; # 350
+      ws-max-spacing = 350; # 350 # alt 50 to retain drag and drop to adjacten workspace function
       ws-preview-scale = 95; # 95
       ws-sw-popup-mode = 0;
       ws-thumbnails-position = 5; # 5 top, 6 bottom
