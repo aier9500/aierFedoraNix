@@ -122,7 +122,7 @@ with lib.hm.gvariant;
       window-buttons-theme = "adwaita";
     };
 
-    # Vertical Workspaces (active)
+    # V-Shell (active)
     "org/gnome/shell/extensions/vertical-workspaces" = {
       app-display-module = true;
       app-favorites-module = false;
