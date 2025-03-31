@@ -17,7 +17,7 @@ with lib.hm.gvariant;
       # font-name = "IBM Plex Sans 10.5"; # Sans/Interface/Backup font # 11 pt
       # gtk-enable-primary-paste = false;
       gtk-theme = "adw-gtk3";
-      monospace-font-name = "IBM Plex Mono 10"; # Mono font # 10 pt
+      # monospace-font-name = "IBM Plex Mono 10"; # Mono font # 10 pt
       # show-battery-percentage = false; # false
       # text-scaling-factor = 1; 
     };
