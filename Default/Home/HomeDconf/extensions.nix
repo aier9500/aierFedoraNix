@@ -21,15 +21,15 @@ with lib.hm.gvariant;
       arcmenu-hotkey = [ "<Alt>space" ]; # Super_L, <Super>r; temporarily set ?
       distro-icon = 15; # RedHat Icon bc it looks like Linux Premium
       highlight-result-terms = true; 
-      menu-background-color = "rgba(32,32,32,0.8)";
-      menu-border-color = "rgba(0,0,0,0.8)";
+      menu-background-color = "rgba(0,0,0,0.75)";
+      menu-border-color = "rgba(0,0,0,1)";
       menu-border-radius = 12;
       menu-border-width = 2;
       menu-button-appearance = "None";
       menu-button-icon = "Distro_Icon";
       menu-button-position-offset = 1;
       menu-font-size = 11; # 11
-      menu-foreground-color = "rgba(255,255,255,1)";
+      menu-foreground-color = "rgba(240,240,240,1)";
       menu-item-bg-color = "rgba(192,192,192,1)";
       menu-item-fg-color = "rgba(0,0,0,1)";
       menu-hover-bg-color = "rgba(192,192,192,1)";
@@ -67,6 +67,15 @@ with lib.hm.gvariant;
     # Clipboard Indicator (inactive)
     "org/gnome/shell/extensions/clipboard-indicator" = {
       toggle-menu = [ "<Super>v" ];
+    };
+
+    # Dynamic Panel
+    "org/gnome/shell/extensions/dynamic-panel" = {
+      addon-trigger-center = true;
+      addon-trigger-left = true;
+      addon-trigger-right = true;
+      light-bg-color = "rgb(0,0,0)";
+      light-fg-color = "rgb(240,240,240)";
     };
 
     # Focus Changer (inactive)
@@ -127,6 +136,7 @@ with lib.hm.gvariant;
       app-display-module = true;
       app-favorites-module = false;
       app-folder-order = 1;
+      app-grid-animation = 0; 
       app-grid-order = 2;
       dash-module = false;
       layout-module = false;
