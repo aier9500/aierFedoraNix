@@ -35,7 +35,7 @@ with lib.hm.gvariant;
       menu-hover-bg-color = "rgba(192,192,192,1)";
       menu-hover-fg-color = "rgba(0,0,0,1)";
       menu-layout = "Runner";
-      override-menu-theme = true;
+      override-menu-theme = false; # false, override default theme
       runner-menu-height = 800;
       runner-menu-width = 600;
       runner-position = "Centered";
@@ -64,18 +64,21 @@ with lib.hm.gvariant;
       enable-fullscreen = false;
     };
 
-    # Clipboard Indicator (inactive)
+    # Clipboard Indicator (active)
     "org/gnome/shell/extensions/clipboard-indicator" = {
       toggle-menu = [ "<Super>v" ];
     };
 
-    # Dynamic Panel
+    # Dynamic Panel (inactive)
     "org/gnome/shell/extensions/dynamic-panel" = {
       addon-trigger-center = true;
       addon-trigger-left = true;
       addon-trigger-right = true;
+      duration = 200;
       light-bg-color = "rgb(0,0,0)";
       light-fg-color = "rgb(240,240,240)";
+      solid-type = 1; # 0, 1 for hide
+      transparent-menus = false;
     };
 
     # Focus Changer (inactive)
