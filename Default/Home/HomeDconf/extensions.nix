@@ -152,6 +152,7 @@ with lib.hm.gvariant;
       search-controller-module = false;
       search-module = false;
       show-ws-preview-bg = false;
+      show-ws-switcher-bg = true;
       show-wst-labels = 0; # 3
       swipe-tracker-module = false;
       win-attention-handler-module = false;
