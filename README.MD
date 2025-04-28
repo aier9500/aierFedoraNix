@@ -32,11 +32,11 @@ git clone https://github.com/aier9500/aierFedoraNix
 - `home.username = "XXXX";` Replace `XXXX` with your username. You can check this by opening the terminal.
 - `home.homeDirectory = "/home/XXXX";` Replace with directory of your home folder.
 
-**4. Open `.../aierFedoraNix/Default/homeDconf.nix`, and comment out modules that you don't want in effect using a `#`.**
+**4. Open `.../aierFedoraNix/Default/Home/homeDconf.nix`, and comment out modules that you don't want in effect using a `#`.**
 
 > [!TIP]
 > I would recommend disabling `keybindings.nix` and `mediakeys.nix` as those are custom keyboard shortcuts made for personal use.
-> If you would like to deep dive, you can open the folder `.../aierFedoraNix/Default/HomeDconf/` and modify the values inside the `.nix` files in the folder.
+> If you would like to deep dive, you can open the folder `.../aierFedoraNix/Default/Home/HomeDconf/` and modify the values inside the `.nix` files in the folder.
 
 **5. Run the `installation.sh` file in `.../aierFedoraNix/Installation/`.**
 
