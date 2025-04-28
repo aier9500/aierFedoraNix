@@ -6,17 +6,11 @@ aierFedoraNix GREATLY CHANGES THE GNOME WORKFLOW! **USAGE WITHOUT KNOWLEDGE OF N
 
 # Installation
 
-## Important Note
-
-1. Some scripts in this repository may require you to **clone this repository into `~/.dotfiles/`** to work correctly.
-
-1. **You need an installation of the Nix package manager** to use the code in this repository. For installing Nix, check the [Determinate System Installer](https://determinate.systems/posts/determinate-nix-installer/).
-
-1. You would want to **restart your system** after installing nix before proceeding to the installation.
+## Important Note: Some scripts in this repository may require you to **clone this repository into `~/.dotfiles/`** to work correctly.
 
 ## First Steps
 
-1. Install the Nix package manager.
+**1. Install the Nix package manager.**
 
 - Follow the [Determinate System Installer](https://determinate.systems/posts/determinate-nix-installer/) or another method of your choice.
 - Reboot your system.
@@ -25,7 +19,7 @@ aierFedoraNix GREATLY CHANGES THE GNOME WORKFLOW! **USAGE WITHOUT KNOWLEDGE OF N
 reboot
 ```
 
-2. Clone this repository to `~/.dotfiles/`.
+**2. Clone this repository to `~/.dotfiles/`.**
 
 ```bash
 cd ~ && mkdir .dotfiles # Creates .dotfiles directory
@@ -33,18 +27,18 @@ cd ~/.dotfiles
 git clone https://github.com/aier9500/aierFedoraNix
 ```
 
-3. Go to the `home.nix` file and change the variables `home.username` and `home.homeDirectory` to suit your system.
+**3. Go to the `home.nix` file and change the variables `home.username` and `home.homeDirectory` to suit your system.**
 
 - `home.username = "XXXX";` Replace `XXXX` with your username. You can check this by opening the terminal.
 - `home.homeDirectory = "/home/XXXX";` Replace with directory of your home folder.
 
-4. Open `.../aierFedoraNix/Default/homeDconf.nix`, and comment out modules that you don't want in effect using a `#`.
+**4. Open `.../aierFedoraNix/Default/homeDconf.nix`, and comment out modules that you don't want in effect using a `#`.**
 
 > [!TIP]
 > I would recommend disabling `keybindings.nix` and `mediakeys.nix` as those are custom keyboard shortcuts made for personal use.
 > If you would like to deep dive, you can open the folder `.../aierFedoraNix/Default/HomeDconf/` and modify the values inside the `.nix` files in the folder.
 
-5. Run the `installation.sh` file in `.../aierFedoraNix/Installation/`.
+**5. Run the `installation.sh` file in `.../aierFedoraNix/Installation/`.**
 
 ```bash
 cd ~/.dotfiles/aierFedoraNix/Installation/
@@ -61,7 +55,7 @@ reboot
 # Optional Scripts
 
 > [!IMPORTANT]
-> These files are no longer actively maintained since 2025-04-26 as these are being migrated to our library!
+> These files are no longer actively maintained since 2025-04-26 as these are being migrated to our library (qoolLinuxLib)!
 
 There are additional optional scripts and resources that add additional functionalities to your home system located in `.../aierFedoraNix/Installation/OptionalScripts/`.
 
@@ -93,10 +87,9 @@ Installs a few highly recommended DNF apps.
 
 # Roadmap
 
-- [ ] Integrating `aierFedoraNix/Installation/` with the Linux App Library.
-
-- [ ]
-
-- [ ] Install script for Flatpak apps.
-
 - [ ] Rename repo to homeManagerDots.
+
+- [ ] Integrating `aierFedoraNix/Installation/` with the Linux App Library.
+  - [ ] Bash customization & `customBash.sh`
+  - [ ] Hibernation guide & `fedoraHibernationQuickstart.sh`
+  - [ ] Kanata setup & `kanataQuickstart.sh`
