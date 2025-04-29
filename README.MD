@@ -93,3 +93,4 @@ Installs a few highly recommended DNF apps.
   - [ ] Bash customization & `customBash.sh`
   - [ ] Hibernation guide & `fedoraHibernationQuickstart.sh`
   - [ ] Kanata setup & `kanataQuickstart.sh`
+  - [ ] Firefox-based settings a.k.a. `user.js`
