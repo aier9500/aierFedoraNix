@@ -94,5 +94,6 @@ Installs a few highly recommended DNF apps.
   - [ ] Hibernation guide & `fedoraHibernationQuickstart.sh`
   - [ ] Kanata setup & `kanataQuickstart.sh`
   - [ ] Firefox-based settings a.k.a. `user.js`
-  - [ ] Turn extensions settings into tutorials/dotfiles
+  - [ ] List of recommended Gnome extensions
+    - [ ] Turn extensions settings into tutorials/dotfiles
   - [ ] Turn `HomeDconf` folder files into setup tutorials/dotfiles
