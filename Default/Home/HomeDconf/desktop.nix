@@ -14,5 +14,9 @@ with lib.hm.gvariant;
       theme-name = "ocean";
     };
 
+    "org/gnome/mutter" = {
+      focus-change-on-pointer-rest = false;
+    };
+    
   };
 }
