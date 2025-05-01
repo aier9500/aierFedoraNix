@@ -8,6 +8,7 @@ with lib.hm.gvariant;
     "org/gnome/shell/keybindings" = {
       shift-overview-down = [ "<Super><Control>Down" ];
       shift-overview-up = [ "<Super><Control>Up" ];
+      toggle-message-tray = [ "<Super>m" ];
       toggle-overview = [ "Super_R" "<Super>r"];
     };
     

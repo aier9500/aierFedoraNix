@@ -5,6 +5,8 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
 
+
+    #### REMEMBER TO ADD JUST PERFECTION & CAFFEINE TO THE LIBRARY #### 
     # Arcmenu (active)
     "org/gnome/shell/extensions/arcmenu" = {
       arcmenu-hotkey = [ "Super_L" ]; # Super_L
@@ -42,56 +44,13 @@ with lib.hm.gvariant;
       icon-size = 18;
       indicator-focused = "rgba(255,255,255,0.8)";
       indicator-running = "rgba(255,255,255,0.8)";
-      indicator-location = "BOTTOM";
-      isolate-workspaces = false;
-      main-panel-height = mkTuple [ true 32 ];
+      main-panel-height = mkTuple [ false 32 ];
       show-apps-button = mkTuple [ false 1 ]; # alt: true 1
-    };
-
-    # Caffeine (active)
-    "org/gnome/shell/extensions/caffeine" = {
-      enable-fullscreen = false;
     };
 
     # Clipboard Indicator (active)
     "org/gnome/shell/extensions/clipboard-indicator" = {
       toggle-menu = [ "<Super>v" ];
-    };
-
-    # Dynamic Panel (inactive)
-    "org/gnome/shell/extensions/dynamic-panel" = {
-      addon-trigger-center = true;
-      addon-trigger-left = true;
-      addon-trigger-right = true;
-      duration = 200;
-      light-bg-color = "rgb(0,0,0)";
-      light-fg-color = "rgb(240,240,240)";
-      solid-type = 1; # 0, 1 for hide
-      transparent-menus = false;
-    };
-
-    # Focus Changer (inactive)
-    "org/gnome/shell/extensions/focus-changer" = {
-      focus-down = [ "<Shift><Super>e" ];
-      focus-left = [ "<Shift><Super>n" ];
-      focus-right = [ "<Shift><Super>i" ];
-      focus-up = [ "<Shift><Super>u" ];
-    };
-
-    # Just Perfection (inactive)
-    "org/gnome/shell/extensions/just-perfection" = {
-      animation = 1; # 1 # 5 is fast, 4 is slow
-      dash = false;
-      notification-banner-position = 1; #1 # 1 for top center, 2 for top right, 5 for bottom right
-      overlay-key = false;
-      panel = true; # true
-      panel-in-overview = true; # true
-      panel-size = 0; # 0
-      search = false; # true
-      workspaces-in-app-grid = true; # true # false for clean app grid
-      window-preview-caption = false; # true
-      workspace-switcher-should-show = true; # false
-      workspace-switcher-size = 13; # 0
     };
 
     # Pano (inactive)
@@ -101,26 +60,6 @@ with lib.hm.gvariant;
       paste-on-select = false;
       play-audio-on-copy = false;
       send-notification-on-copy = false;
-    };
-
-    # Unite (inactive)
-    "org/gnome/shell/extensions/unite" = {
-      app-menu-max-width = 350;
-      desktop-name-text = "GNOME Desktop";
-      extend-left-box = false; # true
-      hide-activities-button = "never";
-      hide-app-menu-icon = false;
-      hide-window-titlebars = "maximized"; # maximized
-      notifications-position = "center";
-      reduce-panel-spacing = true;
-      show-appmenu-button = false; # window title, true to show
-      show-legacy-tray = false;
-      show-window-buttons = "never"; # maximized
-      show-desktop-name = false;
-      show-window-title = "never"; # "always" shows full title, "never" shows just the app name
-      use-activities-text = false; 
-      window-buttons-placement = "last";
-      window-buttons-theme = "adwaita";
     };
 
     # V-Shell (active)
