@@ -8,8 +8,6 @@ with lib.hm.gvariant;
     ./HomeDconf/desktop.nix
     ./HomeDconf/extensions.nix
     ./HomeDconf/keybindings.nix
-    ./HomeDconf/mediaKeys.nix
-    ./HomeDconf/mutter.nix
     ./HomeDconf/peripherals.nix
   ];
 }

@@ -5,20 +5,9 @@ with lib.hm.gvariant;
 {
   dconf.settings = {
 
-    # Alphabetical App grid (inactive)
-    "org/gnome/shell/extensions/alphabetical-app-grid" = {
-      folder-order-position = "start";
-    };
-
-    # AppIndicator (inactive)
-    "org/gnome/shell/extensions/appindicator" = {
-      icon-saturation = 1.0; # 1.0
-      tray-pos = "right";
-    };
-
     # Arcmenu (active)
     "org/gnome/shell/extensions/arcmenu" = {
-      arcmenu-hotkey = [ "<Alt>space" ]; # Super_L, <Super>r; temporarily set ?
+      arcmenu-hotkey = [ "Super_L" ]; # Super_L
       distro-icon = 15; # RedHat Icon bc it looks like Linux Premium
       highlight-result-terms = true; 
       menu-background-color = "rgba(0,0,0,0.75)";
