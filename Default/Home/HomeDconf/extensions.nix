@@ -7,9 +7,11 @@ with lib.hm.gvariant;
 
 
     #### REMEMBER TO ADD JUST PERFECTION & CAFFEINE TO THE LIBRARY #### 
+
+    
     # Arcmenu (active)
     "org/gnome/shell/extensions/arcmenu" = {
-      arcmenu-hotkey = [ "Super_L" ]; # Super_L
+      arcmenu-hotkey = [ "<Alt>Space" ]; # Super_L
       distro-icon = 15; # RedHat Icon bc it looks like Linux Premium
       highlight-result-terms = true; 
       menu-background-color = "rgba(0,0,0,0.75)";
@@ -68,14 +70,14 @@ with lib.hm.gvariant;
       app-favorites-module = false;
       app-folder-order = 1;
       app-grid-animation = 0; 
-      app-grid-order = 2;
+      app-grid-order = 0;
       dash-module = false;
       layout-module = false;
       message-tray-module = false;
       osd-window-module = false;
       overlay-key-module = true;
-      overlay-key-primary = 0;
-      overlay-key-secondary = 0;
+      overlay-key-primary = 0; # 1 for enabled
+      overlay-key-secondary = 0; # 1 for enabled
       panel-module = true;
       search-controller-module = false;
       search-module = false;
