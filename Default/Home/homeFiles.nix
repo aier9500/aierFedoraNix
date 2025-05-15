@@ -59,8 +59,8 @@
         grv  1    2    3    4    5    6    7    8    9    0    -    =    caps
         tab   q    w    f    p    b    j    l    u    y    ;    [    ]    
         bspc   a    r    s    t    g    m    n    e    i    o    '    ret
-        lsft     x    c    d    v    z    k    h    ,    .    /    rsft
-        lctl lmet @anv           spc            ralt rmet rctl
+        lctl     x    c    d    v    z    k    h    ,    .    /    rctl
+        lalt lmet @nav           spc            rsft rmet ralt
       )  
 
       (deflayer qwerty
@@ -69,7 +69,7 @@
         tab   q    w    e    r    t    y    u    i    o    p    [    ]    
         caps   a    s    d    f    g    h    j    k    l    ;    '    ret
         lsft     z    x    c    v    b    n    m    ,    .    /    rsft
-        lctl lmet @anv           spc            ralt rmet rctl
+        lctl lmet lalt           spc            ralt rmet rctl
       )  
 
       (deflayer navigation
@@ -84,6 +84,7 @@
       (defalias
         bcp ( tap-hold     200  200  bspc caps )                             ;; tap: bspc | hold: caps
         anv ( tap-dance    200 ( lalt (layer-while-held navigation) ) )      ;; tap1: lalt | tap2&hold: navigation layer
+        nav ( layer-while-held navigation )                                  ;; MO Nav layer
         clt ( macro C-(lft  10) )                                            ;; ctl + lft                      
         crt ( macro C-(rght 10) )                                            ;; ctl + rght
         lcm ( layer-switch default )                                         ;; Switch to Colemak-DH Default layer
