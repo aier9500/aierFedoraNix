@@ -59,8 +59,8 @@
         grv  1    2    3    4    5    6    7    8    9    0    -    =    caps
         tab   q    w    f    p    b    j    l    u    y    ;    [    ]    
         bspc   a    r    s    t    g    m    n    e    i    o    '    ret
-        lctl     x    c    d    v    z    k    h    ,    .    /    rctl
-        lalt lmet @nav           spc            rsft rmet ralt
+        lsft     x    c    d    v    z    k    h    ,    .    /    rsft
+        lctl lmet @anv           spc            ralt rmet rctl
       )  
 
       (deflayer qwerty
