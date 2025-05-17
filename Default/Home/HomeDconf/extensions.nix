@@ -66,37 +66,32 @@ with lib.hm.gvariant;
 
     # V-Shell (active)
     "org/gnome/shell/extensions/vertical-workspaces" = {
-      app-display-module = true;
+      app-display-module = false;
       app-favorites-module = false;
-      app-folder-order = 1;
-      app-grid-animation = 0; 
-      app-grid-order = 0;
       dash-module = false;
       layout-module = false;
       message-tray-module = false;
       osd-window-module = false;
-      overlay-key-module = true;
-      overlay-key-primary = 0; # 1 for enabled
-      overlay-key-secondary = 0; # 1 for enabled
-      panel-module = true;
+      overlay-key-module = false;
+      panel-module = false;
       search-controller-module = false;
       search-module = false;
-      show-ws-preview-bg = false;
-      show-ws-switcher-bg = true;
-      show-wst-labels = 0; # 3
+      show-ws-preview-bg = false; # Static background
+      show-ws-switcher-bg = true; # Workspace switcher background
+      show-wst-labels = 0; # 3, Workspace Labels off
       swipe-tracker-module = false;
       win-attention-handler-module = false;
       window-manager-module = false;
       window-preview-module = true;
-      win-title-position = 0;
+      win-title-position = 0; # Window title in overview is inside of window
       workspace-animation-module = true;
       workspace-module = false;
       workspace-switcher-popup-module = true;
       ws-max-spacing = 350; # 350 # alt 50 to retain drag and drop to adjacten workspace function
       ws-preview-scale = 95; # 95
-      ws-sw-popup-mode = 0;
+      ws-sw-popup-mode = 0; # Workspace switching pop-up off
       ws-thumbnails-position = 5; # 5 top, 6 bottom
-      wst-position-adjust = 0;
+      wst-position-adjust = 0; # Center workspace switchers
     };
   };
 }
