@@ -90,7 +90,7 @@ Installs a few highly recommended DNF apps.
 - [ ] Rename repo to homeManagerDots.
 
 - [ ] Integrating `aierFedoraNix/Installation/` with the Linux App Library.
-  - [ ] Bash customization & `customBash.sh`
+  - [x] Bash customization & `customBash.sh`
   - [ ] Hibernation guide & `fedoraHibernationQuickstart.sh`
   - [ ] Kanata setup & `kanataQuickstart.sh`
   - [ ] Firefox-based settings a.k.a. `user.js`
